@@ -1,0 +1,256 @@
+1 Time PC
+2 Time Modbus
+3 Calculated reactivity(NFME) ___ JKT10 FU715 XQ02
+4 Calculated reactivity(NFME) ___ JKT20 FU725 XQ02
+5 Calculated reactivity(NFME) ___ JKT30 FU735 XQ02
+6 Calculated reactivity(NFME) ___ JKT40 FU745 XQ02
+7 Power signals used for reactivity calculation % ___ JKT10 FU716 XQ02
+8 Power signals used for reactivity calculation % ___ JKT20 FU726 XQ02
+9 Power signals used for reactivity calculation % ___ JKT30 FU736 XQ02
+10 Power signals used for reactivity calculation % ___ JKT40 FU746 XQ02
+11 Neutron power level in SR % ___ JKT10 FX711 XQ05
+12 Neutron power level in SR % ___ JKT20 FX721 XQ05
+13 Neutron power level in SR % ___ JKT30 FX731 XQ05
+14 Neutron power level in SR % ___ JKT40 FX741 XQ05
+15 Neutron power level in IR % ___ JKT10 FX711 XQ04
+16 Neutron power level in IR % ___ JKT20 FX721 XQ04
+17 Neutron power level in IR % ___ JKT30 FX731 XQ04
+18 Neutron power level in IR % ___ JKT40 FX741 XQ04
+19 Neutron power level in WR1 % ___ JKT10 FX711 XQ03
+20 Neutron power level in WR1 % ___ JKT20 FX721 XQ03
+21 Neutron power level in WR1 % ___ JKT30 FX731 XQ03
+22 Neutron power level in WR1 % ___ JKT40 FX741 XQ03
+23 Neutron power level in WR2 % ___ JKT10 FX711 XQ02
+24 Neutron power level in WR2 % ___ JKT20 FX721 XQ02
+25 Neutron power level in WR2 % ___ JKT30 FX731 XQ02
+26 Neutron power level in WR2 % ___ JKT40 FX741 XQ02
+27 Neutron flux change period in WR s ___ JKT10 FK712 XQ02
+28 Neutron flux change period in WR s ___ JKT20 FK722 XQ02
+29 Neutron flux change period in WR s ___ JKT30 FK732 XQ02
+30 Neutron flux change period in WR s ___ JKT40 FK742 XQ02
+31 Neutron flux change period in IR s ___ JKT10 FK712 XQ03
+32 Neutron flux change period in IR s ___ JKT20 FK722 XQ03
+33 Neutron flux change period in IR s ___ JKT30 FK732 XQ03
+34 Neutron flux change period in IR s ___ JKT40 FK742 XQ03
+35 Neutron flux change period in SR s ___ JKT10 FK712 XQ04
+36 Neutron flux change period in SR s ___ JKT20 FK722 XQ04
+37 Neutron flux change period in SR s ___ JKT30 FK732 XQ04
+38 Neutron flux change period in SR s ___ JKT40 FK742 XQ04
+39 Reactor power calculated by 1 circuit parameters %Nnom ___ JEC00 FJ901 XQ02
+40 Reactor power calculated by Feed Water parameters on SG %Nnom ___ JEA00 FJ901 XQ02
+41 Reactor power calculated by SPND %Nnom ___ JKS00 FJ901 XQ03
+42 Reactor power calculated by NFME %Nnom ___ JKT00 FJ901 XQ01
+43 Average power of reactor unit %Nnom ___ JKS00 FJ905 XQ02
+44 Active Power 2v3 Gen ___ MKA10 CE911 XQ01
+45 Average pressure measured above the core ___ JAA10 FP901 XQ02
+46 Reactor inp Pressure ___ JAA10 CP902 XQ01
+47 Differential Pressure Reactor ___ JAA10 CP003 XQ01
+48 Volumetric coolant flow rate in the primary loop 1 ___ JEC10 FF901 XQ01
+49 Volumetric coolant flow rate in the primary loop 2 ___ JEC20 FF901 XQ01
+50 Volumetric coolant flow rate in the primary loop 3 ___ JEC30 FF901 XQ01
+51 Volumetric coolant flow rate in the primary loop 4 ___ JEC40 FF901 XQ01
+52 Total volumetric coolant Flow in reactor ___ JKS00 FF901 XQ01
+53 Average temperature in cool leg of Loop 1 ___ JEC12 FT901 XQ01
+54 Average temperature in cool leg of Loop 2 ___ JEC22 FT901 XQ01
+55 Average temperature in cool leg of Loop 3 ___ JEC32 FT901 XQ01
+56 Average temperature in cool leg of Loop 4 ___ JEC42 FT901 XQ01
+57 Average temperature in hot leg of Loop 1 ___ JEC11 FT901 XQ01
+58 Average temperature in hot leg of Loop 2 ___ JEC21 FT901 XQ01
+59 Average temperature in hot leg of Loop 3 ___ JEC31 FT901 XQ01
+60 Average temperature in hot leg of Loop 4 ___ JEC41 FT901 XQ01
+61 Coolant heating in primary circuit loop 1 ___ JEC10 FT901 XQ01
+62 Coolant heating in primary circuit loop 2 ___ JEC20 FT901 XQ01
+63 Coolant heating in primary circuit loop 3 ___ JEC30 FT901 XQ01
+64 Coolant heating in primary circuit loop 4 ___ JEC40 FT901 XQ01
+65 Average coolant heating in the loops of the primary circuit ___ JAA10 FT901 XQ02
+66 Average coolant T in cool legs ___ JEC00 FT901 XQ01
+67 Average coolant T in hot legs ___ JEC00 FT901 XQ02
+68 Change rate of average coolant T in cool legs ___ JEC00 FT901 XQ04
+69 Change rate of average coolant T in hot legs ___ JEC00 FT901 XQ03
+70 Maximum coolant T of FA o/p by reading of in-core probe TC ___ JKS00 CT902 XQ01
+71 Axial position of FA with maximum coolant T of FA o/p by reading of IC probe TC ___ JKS01 FG001 XQ01
+72 Maximal value of relative power of FA ___ JKS04 FX902 XQ01
+73 FA maximum relative power axial position ___ JKS04 FG001 XQ01
+74 Kv_Maximum ___ JKS03 FX902 XQ01
+75 Axial position of FA of maximal inequality coefficient of local volume power ___ JKS03 FG001 XQ01
+76 Layer No of maximal inequality coefficient of local volume power ___ JKS03 FG002 XQ01
+77 Avevage offset within the core ___ JKS00 FU901 XQ01
+78 Flow Blow down line ___ KBA10 CF001 XQ01
+79 Flow Sum Injection ___ KBA60 CF901 XQ01
+80 Concentration Boron Acid Make-up Line Upstream Water Heat Exchanger ___ KBA60 CQ001 XQ01
+81 Level of KBA10BB001 ___ KBA10 CL901 XQ01
+82 Concentration Boron Acid Downstream Reactor ___ KUL01 CQ010 XQ01
+83 Level 2v3 Pressurizer ___ JEF10 CL913 XQ01
+84 Temperature Pressurizer Pipe Coolant ___ JEF10 FT901 XQ01
+85 Temperature 2v3 Pressurizer Coolant ___ JEF10 CT901 XQ01
+86 Temperature Pressurizer Steam ___ JEF10 CT007 XQ01
+87 Flow Pure Condensation kg/s ___ KBC10 FF901 XQ01
+88 Level 1V2 Pure Condensation Tank ___ KBC11 CL901 XQ01
+89 Level 1V2 Pure Condensation Tank ___ KBC12 CL901 XQ01
+90 Position of 1 group CR % ___ JDA10 FG901 XQ01
+91 Position of 2 group CR % ___ JDA10 FG902 XQ01
+92 Position of 3 group CR % ___ JDA10 FG903 XQ01
+93 Position of 4 group CR % ___ JDA10 FG904 XQ01
+94 Position of 5 group CR % ___ JDA10 FG905 XQ01
+95 Position of 6 group CR % ___ JDA10 FG906 XQ01
+96 Position of 7 group CR % ___ JDA10 FG907 XQ01
+97 Position of 8 group CR % ___ JDA10 FG908 XQ01
+98 Position of 9 group CR % ___ JDA10 FG909 XQ01
+99 Position of 10 group CR % ___ JDA10 FG910 XQ01
+100 Position of CPS CR (17)13-22 1 of 1 group CR ___ JDA10 FG17  XQ01
+101 Position of CPS CR (74)09-40 2 of 1 group CR ___ JDA10 FG74  XQ01
+102 Position of CPS CR (151)02-25 3 of 1 group CR ___ JDA10 FG151 XQ01
+103 Position of CPS CR (13)14-33 4 of 1 group CR ___ JDA10 FG13  XQ01
+104 Position of CPS CR (90)07-18 5 of 1 group CR ___ JDA10 FG90  XQ01
+105 Position of CPS CR (147)03-36 6 of 1 group CR ___ JDA10 FG147 XQ01
+106 Position of CPS CR (20)13-28 7 of 1 group CR ___ JDA10 FG20  XQ01
+107 Position of CPS CR (113)06-37 8 of 1 group CR ___ JDA10 FG113 XQ01
+108 Position of CPS CR (118)05-22 9 of 1 group CR ___ JDA10 FG118 XQ01
+109 Position of CPS CR (46)11-36 10 of 1 group CR ___ JDA10 FG46  XQ01
+110 Position of CPS CR (51)10-21 11 of 1 group CR ___ JDA10 FG51  XQ01
+111 Position of CPS CR (144)03-30 12 of 1 group CR ___ JDA10 FG144 XQ01
+112 Position of CPS CR (24)13-36 1 of 2 group CR ___ JDA10 FG24  XQ01
+113 Position of CPS CR (63)09-18 2 of 2 group CR ___ JDA10 FG63  XQ01
+114 Position of CPS CR (155)02-33 3 of 2 group CR ___ JDA10 FG155 XQ01
+115 Position of CPS CR (9)14-25 4 of 2 group CR ___ JDA10 FG9   XQ01
+116 Position of CPS CR (101)07-40 5 of 2 group CR ___ JDA10 FG101 XQ01
+117 Position of CPS CR (140)03-22 6 of 2 group CR ___ JDA10 FG140 XQ01
+118 Position of CPS CR (41)11-26 7 of 2 group CR ___ JDA10 FG41  XQ01
+119 Position of CPS CR (85)08-35 8 of 2 group CR ___ JDA10 FG85  XQ01
+120 Position of CPS CR (120)05-26 9 of 2 group CR ___ JDA10 FG120 XQ01
+121 Position of CPS CR (44)11-32 10 of 2 group CR ___ JDA10 FG44  XQ01
+122 Position of CPS CR (79)08-23 11 of 2 group CR ___ JDA10 FG79  XQ01
+123 Position of CPS CR (123)05-32 12 of 2 group CR ___ JDA10 FG123 XQ01
+124 Position of CPS CR (21)13-30 1 of 3 group CR ___ JDA10 FG21  XQ01
+125 Position of CPS CR (105)06-21 2 of 3 group CR ___ JDA10 FG105 XQ01
+126 Position of CPS CR (125)05-36 3 of 3 group CR ___ JDA10 FG125 XQ01
+127 Position of CPS CR (39)11-22 4 of 3 group CR ___ JDA10 FG39  XQ01
+128 Position of CPS CR (59)10-37 5 of 3 group CR ___ JDA10 FG59  XQ01
+129 Position of CPS CR (143)03-28 6 of 3 group CR ___ JDA10 FG143 XQ01
+130 Position of CPS CR (69)09-30 7 of 3 group CR ___ JDA10 FG69  XQ01
+131 Position of CPS CR (81)08-27 8 of 3 group CR ___ JDA10 FG81  XQ01
+132 Position of CPS CR (96)07-30 9 of 3 group CR ___ JDA10 FG96  XQ01
+133 Position of CPS CR (68)09-28 10 of 3 group CR ___ JDA10 FG68  XQ01
+134 Position of CPS CR (83)08-31 11 of 3 group CR ___ JDA10 FG83  XQ01
+135 Position of CPS CR (95)07-28 12 of 3 group CR ___ JDA10 FG95  XQ01
+136 Position of CPS CR (43)11-30 1 of 4 group CR ___ JDA10 FG43  XQ01
+137 Position of CPS CR (93)07-24 2 of 4 group CR ___ JDA10 FG93  XQ01
+138 Position of CPS CR (111)06-33 3 of 4 group CR ___ JDA10 FG111 XQ01
+139 Position of CPS CR (53)10-25 4 of 4 group CR ___ JDA10 FG53  XQ01
+140 Position of CPS CR (71)09-34 5 of 4 group CR ___ JDA10 FG71  XQ01
+141 Position of CPS CR (121)05-28 6 of 4 group CR ___ JDA10 FG121 XQ01
+142 Position of CPS CR (35)12-37 7 of 4 group CR ___ JDA10 FG35  XQ01
+143 Position of CPS CR (50)10-19 8 of 4 group CR ___ JDA10 FG50  XQ01
+144 Position of CPS CR (154)02-31 9 of 4 group CR ___ JDA10 FG154 XQ01
+145 Position of CPS CR (10)14-27 10 of 4 group CR ___ JDA10 FG10  XQ01
+146 Position of CPS CR (114)06-39 11 of 4 group CR ___ JDA10 FG114 XQ01
+147 Position of CPS CR (129)04-21 12 of 4 group CR ___ JDA10 FG129 XQ01
+148 Position of CPS CR (57)10-33 1 of 5 group CR ___ JDA10 FG57  XQ01
+149 Position of CPS CR (66)09-24 2 of 5 group CR ___ JDA10 FG66  XQ01
+150 Position of CPS CR (122)05-30 3 of 5 group CR ___ JDA10 FG122 XQ01
+151 Position of CPS CR (42)11-28 4 of 5 group CR ___ JDA10 FG42  XQ01
+152 Position of CPS CR (98)07-34 5 of 5 group CR ___ JDA10 FG98  XQ01
+153 Position of CPS CR (107)06-25 6 of 5 group CR ___ JDA10 FG107 XQ01
+154 Position of CPS CR (27)12-21 7 of 5 group CR ___ JDA10 FG27  XQ01
+155 Position of CPS CR (60)10-39 8 of 5 group CR ___ JDA10 FG60  XQ01
+156 Position of CPS CR (152)02-27 9 of 5 group CR ___ JDA10 FG152 XQ01
+157 Position of CPS CR (12)14-31 10 of 5 group CR ___ JDA10 FG12  XQ01
+158 Position of CPS CR (104)06-19 11 of 5 group CR ___ JDA10 FG104 XQ01
+159 Position of CPS CR (137)04-37 12 of 5 group CR ___ JDA10 FG137 XQ01
+160 Position of CPS CR (22)13-32 1 of 6 group CR ___ JDA10 FG22  XQ01
+161 Position of CPS CR (91)07-20 2 of 6 group CR ___ JDA10 FG91  XQ01
+162 Position of CPS CR (136)04-35 3 of 6 group CR ___ JDA10 FG136 XQ01
+163 Position of CPS CR (28)12-23 4 of 6 group CR ___ JDA10 FG28  XQ01
+164 Position of CPS CR (73)09-38 5 of 6 group CR ___ JDA10 FG73  XQ01
+165 Position of CPS CR (142)03-26 6 of 6 group CR ___ JDA10 FG142 XQ01
+166 Position of CPS CR (33)12-33 7 of 6 group CR ___ JDA10 FG33  XQ01
+167 Position of CPS CR (78)08-21 8 of 6 group CR ___ JDA10 FG78  XQ01
+168 Position of CPS CR (135)04-33 9 of 6 group CR ___ JDA10 FG135 XQ01
+169 Position of CPS CR (29)12-25 10 of 6 group CR ___ JDA10 FG29  XQ01
+170 Position of CPS CR (86)08-37 11 of 6 group CR ___ JDA10 FG86  XQ01
+171 Position of CPS CR (131)04-25 12 of 6 group CR ___ JDA10 FG131 XQ01
+172 Position of CPS CR (19)13-26 1 of 7 group CR ___ JDA10 FG19  XQ01
+173 Position of CPS CR (100)07-38 2 of 7 group CR ___ JDA10 FG100 XQ01
+174 Position of CPS CR (130)04-23 3 of 7 group CR ___ JDA10 FG130 XQ01
+175 Position of CPS CR (34)12-35 4 of 7 group CR ___ JDA10 FG34  XQ01
+176 Position of CPS CR (64)09-20 5 of 7 group CR ___ JDA10 FG64  XQ01
+177 Position of CPS CR (145)03-32 6 of 7 group CR ___ JDA10 FG145 XQ01
+178 Position of CPS CR (56)10-31 7 of 7 group CR ___ JDA10 FG56  XQ01
+179 Position of CPS CR (80)08-25 8 of 7 group CR ___ JDA10 FG80  XQ01
+180 Position of CPS CR (110)06-31 9 of 7 group CR ___ JDA10 FG110 XQ01
+181 Position of CPS CR (11)14-29 1 of 8 group CR ___ JDA10 FG11  XQ01
+182 Position of CPS CR (117)05-20 2 of 8 group CR ___ JDA10 FG117 XQ01
+183 Position of CPS CR (126)05-38 3 of 8 group CR ___ JDA10 FG126 XQ01
+184 Position of CPS CR (38)11-20 4 of 8 group CR ___ JDA10 FG38  XQ01
+185 Position of CPS CR (47)11-38 5 of 8 group CR ___ JDA10 FG47  XQ01
+186 Position of CPS CR (153)02-29 6 of 8 group CR ___ JDA10 FG153 XQ01
+187 Position of CPS CR (54)10-27 7 of 8 group CR ___ JDA10 FG54  XQ01
+188 Position of CPS CR (84)08-33 8 of 8 group CR ___ JDA10 FG84  XQ01
+189 Position of CPS CR (108)06-27 9 of 8 group CR ___ JDA10 FG108 XQ01
+190 Position of CPS CR (18)13-24 1 of 9 group CR ___ JDA10 FG18  XQ01
+191 Position of CPS CR (87)08-39 2 of 9 group CR ___ JDA10 FG87  XQ01
+192 Position of CPS CR (141)03-24 3 of 9 group CR ___ JDA10 FG141 XQ01
+193 Position of CPS CR (23)13-34 4 of 9 group CR ___ JDA10 FG23  XQ01
+194 Position of CPS CR (77)08-19 5 of 9 group CR ___ JDA10 FG77  XQ01
+195 Position of CPS CR (146)03-34 6 of 9 group CR ___ JDA10 FG146 XQ01
+196 Position of CPS CR (82)08-29 7 of 9 group CR ___ JDA10 FG82  XQ01
+197 Position of CPS CR (31)12-29 1 of 10 group CR ___ JDA10 FG31  XQ01
+198 Position of CPS CR (106)06-23 2 of 10 group CR ___ JDA10 FG106 XQ01
+199 Position of CPS CR (112)06-35 3 of 10 group CR ___ JDA10 FG112 XQ01
+200 Position of CPS CR (52)10-23 4 of 10 group CR ___ JDA10 FG52  XQ01
+201 Position of CPS CR (58)10-35 5 of 10 group CR ___ JDA10 FG58  XQ01
+202 Position of CPS CR (133)04-29 6 of 10 group CR ___ JDA10 FG133 XQ01
+203 Feeding water flow in SG 1 ___ LAB10 FF901 XQ01
+204 Feeding water flow in SG 2 ___ LAB20 FF901 XQ01
+205 Feeding water flow in SG 3 ___ LAB30 FF901 XQ01
+206 Feeding water flow in SG 4 ___ LAB40 FF901 XQ01
+207 Total feeding water flow in SG ___ LAB00 FF903 XQ01
+208 Steam Pressure in SG 1 ___ LBA10 FP901 XQ01
+209 Steam Pressure in SG 2 ___ LBA20 FP901 XQ01
+210 Steam Pressure in SG 3 ___ LBA30 FP901 XQ01
+211 Steam Pressure in SG 4 ___ LBA40 FP901 XQ01
+212 Average steam pressure in SG ___ LBA00 FP901 XQ01
+213 Pressure 2v3 MS Header ___ LBA00 CP911 XQ01
+214 Inlet Feeding water Pressure in SG 1 ___ LAB10 FP901 XQ01
+215 Inlet Feeding water Pressure in SG 2 ___ LAB20 FP901 XQ01
+216 Inlet Feeding water Pressure in SG 3 ___ LAB30 FP901 XQ01
+217 Inlet Feeding water Pressure in SG 4 ___ LAB40 FP901 XQ01
+218 Inlet feeding water temperature in SG 1 ___ LAB10 FT901 XQ01
+219 Inlet feeding water temperature in SG 2 ___ LAB20 FT901 XQ01
+220 Inlet feeding water temperature in SG 3 ___ LAB30 FT901 XQ01
+221 Inlet feeding water temperature in SG 4 ___ LAB40 FT901 XQ01
+222 Level 2v3 SG 1 small range ___ JEA10 CL913 XQ01
+223 Level 2v3 SG 2 small range ___ JEA20 CL913 XQ01
+224 Level 2v3 SG 3 small range ___ JEA30 CL913 XQ01
+225 Level 2v3 SG 4 small range ___ JEA40 CL913 XQ01
+226 position Isolating Valve Before BRU-A ___ LBU10 GG101 XH01
+227 position Isolating Valve Before BRU-A ___ LBU20 GG101 XH01
+228 position Isolating Valve Before BRU-A ___ LBU30 GG101 XH01
+229 position Isolating Valve Before BRU-A ___ LBU40 GG101 XH01
+230 position Control RI-V BRU-A ___ LBU10 CG201 XQ01
+231 position Control RI-V BRU-A ___ LBU20 CG201 XQ01
+232 position Control RI-V BRU-A ___ LBU30 CG201 XQ01
+233 position Control RI-V BRU-A ___ LBU40 CG201 XQ01
+234 Position Control Valve Open (BRU-K)-A ___ MAN11 CG201 XG01
+235 Position Control Valve Open (BRU-K)-A ___ MAN12 CG201 XG01
+236 Position Control Valve Open (BRU-K)-A ___ MAN13 CG201 XG01
+237 Position Control Valve Open (BRU-K)-A ___ MAN14 CG201 XG01
+238 Position Control Valve Open (BRU-K)-A ___ MAN21 CG201 XG01
+239 Position Control Valve Open (BRU-K)-A ___ MAN22 CG201 XG01
+240 Position Control Valve Open (BRU-K)-A ___ MAN23 CG201 XG01
+241 Position Control Valve Open (BRU-K)-A ___ MAN24 CG201 XG01
+242 Position of BRU-CN No. 1 ___ LBG01 CG201 XQ01
+243 Position of BRU-CN No. 2 ___ LBG02 CG201 XQ01
+244 Position of BRU-CN No. 3 ___ LBG03 CG201 XQ01
+245 T(S) 
+246 1/N  
+247 LN(N) 
+248 XX
+249 Reactivity 1 (NFME 1#) from CTH-3 ___ REACT 00000 0001
+250 Reactivity 2 (NFME 7#) from CTH-3 ___ REACT 00000 0007
+251 Average reactivity R1 (NFME 1#) calculated with 10 s(1) ___ REACT AVERAGE001
+252 Average reactivity R2 (NFME 7#) calculated with 10 s(2) ___ REACT AVERAGE007
+253 Reactivity 1 (NFME 1#) from CTH-3 new constant ___ REACT 00001 0001
+254 Reactivity 2 (NFME 7#) from CTH-3 new constant ___ REACT 00001 0007
+255 Current 1 (NFME 1#) from CTH-3 ___ CURRENT 000 0001
+256 Current 2 (NFME 7#) from CTH-3 ___ CURRENT 000 0007
