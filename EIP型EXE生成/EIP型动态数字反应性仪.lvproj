@@ -28,12 +28,12 @@
 			<Item Name="反应性模拟计算.vi" Type="VI" URL="../../数据模拟实测/反应性模拟计算.vi"/>
 			<Item Name="数据模拟实测.vi" Type="VI" URL="../../数据模拟实测/数据模拟实测.vi"/>
 		</Item>
-		<Item Name="[EIP型数字化反应性仪ETH].vi" Type="VI" URL="../../[EIP型数字化反应性仪ETH].vi"/>
 		<Item Name="logo.vi" Type="VI" URL="../../logo.vi"/>
 		<Item Name="采集参数设置.vi" Type="VI" URL="../../采集参数设置.vi"/>
 		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../../测棒价值数据处理.vi"/>
 		<Item Name="打开数据文件夹.vi" Type="VI" URL="../../打开数据文件夹.vi"/>
 		<Item Name="堆物理参数设置.vi" Type="VI" URL="../../堆物理参数设置.vi"/>
+		<Item Name="反应性主程序.vi" Type="VI" URL="../../反应性主程序.vi"/>
 		<Item Name="临界安全监督实测.vi" Type="VI" URL="../../临界安全监督实测.vi"/>
 		<Item Name="临界安全监督数据处理.vi" Type="VI" URL="../../临界安全监督数据处理.vi"/>
 		<Item Name="输出参数设置.vi" Type="VI" URL="../../输出参数设置.vi"/>
@@ -243,7 +243,7 @@
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/[EIP型数字化反应性仪ETH].vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/反应性主程序.vi</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
