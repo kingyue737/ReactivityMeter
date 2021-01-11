@@ -28,24 +28,26 @@
 			<Item Name="反应性模拟计算.vi" Type="VI" URL="../../数据模拟实测/反应性模拟计算.vi"/>
 			<Item Name="数据模拟实测.vi" Type="VI" URL="../../数据模拟实测/数据模拟实测.vi"/>
 		</Item>
-		<Item Name="CORE.JPG" Type="Document" URL="../需拷贝到EXE目录/CORE.JPG"/>
+		<Item Name="CORE.JPG" Type="Document" URL="../../CORE.JPG"/>
+		<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../../iRhoV_SSFDSF_1.txt"/>
+		<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../../iRhoV_SSFDSF_2.txt"/>
 		<Item Name="logo.vi" Type="VI" URL="../../logo.vi"/>
-		<Item Name="TempREG.dat" Type="Document" URL="../需拷贝到EXE目录/TempREG.dat"/>
+		<Item Name="TempREG.dat" Type="Document" URL="../../TempREG.dat"/>
 		<Item Name="采集参数设置.vi" Type="VI" URL="../../采集参数设置.vi"/>
-		<Item Name="采集参数文件.dat" Type="Document" URL="../需拷贝到EXE目录/采集参数文件.dat"/>
+		<Item Name="采集参数文件.dat" Type="Document" URL="../../采集参数文件.dat"/>
 		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../../测棒价值数据处理.vi"/>
 		<Item Name="打开数据文件夹.vi" Type="VI" URL="../../打开数据文件夹.vi"/>
 		<Item Name="堆物理参数设置.vi" Type="VI" URL="../../堆物理参数设置.vi"/>
-		<Item Name="堆物理参数文件.dat" Type="Document" URL="../需拷贝到EXE目录/堆物理参数文件.dat"/>
+		<Item Name="堆物理参数文件.dat" Type="Document" URL="../../堆物理参数文件.dat"/>
 		<Item Name="反应性主程序.vi" Type="VI" URL="../../反应性主程序.vi"/>
-		<Item Name="公用设置参数.dat" Type="Document" URL="../需拷贝到EXE目录/公用设置参数.dat"/>
+		<Item Name="公用设置参数.dat" Type="Document" URL="../../公用设置参数.dat"/>
 		<Item Name="临界安全监督实测.vi" Type="VI" URL="../../临界安全监督实测.vi"/>
 		<Item Name="临界安全监督数据处理.vi" Type="VI" URL="../../临界安全监督数据处理.vi"/>
 		<Item Name="输出参数设置.vi" Type="VI" URL="../../输出参数设置.vi"/>
-		<Item Name="输出参数文件.dat" Type="Document" URL="../需拷贝到EXE目录/输出参数文件.dat"/>
-		<Item Name="微电流源校准文件27353211.dat" Type="Document" URL="../需拷贝到EXE目录/微电流源校准文件27353211.dat"/>
-		<Item Name="微电流源校准文件27554458.dat" Type="Document" URL="../需拷贝到EXE目录/微电流源校准文件27554458.dat"/>
-		<Item Name="微电流源校准文件27562712.dat" Type="Document" URL="../需拷贝到EXE目录/微电流源校准文件27562712.dat"/>
+		<Item Name="输出参数文件.dat" Type="Document" URL="../../输出参数文件.dat"/>
+		<Item Name="微电流源校准文件27353211.dat" Type="Document" URL="../../微电流源校准文件27353211.dat"/>
+		<Item Name="微电流源校准文件27554458.dat" Type="Document" URL="../../微电流源校准文件27554458.dat"/>
+		<Item Name="微电流源校准文件27562712.dat" Type="Document" URL="../../微电流源校准文件27562712.dat"/>
 		<Item Name="新建数据文件夹.vi" Type="VI" URL="../../新建数据文件夹.vi"/>
 		<Item Name="源强计算.vi" Type="VI" URL="../../源强计算.vi"/>
 		<Item Name="指数电流信号.vi" Type="VI" URL="../../指数电流信号.vi"/>
@@ -189,173 +191,6 @@
 			<Item Name="主界面菜单.rtm" Type="Document" URL="../../主界面菜单.rtm"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="HXH型反应性仪安装包" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{0A544682-7390-49DD-8471-7F65403AD302}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI System Configuration Runtime 20.0.0</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{E7491C92-6FEB-4CD1-8F74-1C6909D1FBAD}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2019</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{944CC86F-BDFB-4850-878C-370B9A7FF12C}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 20.0</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{C15BFDB8-87FC-4033-8FFD-722BDCBB9B5C}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI Measurement &amp; Automation Explorer 20.0</Property>
-				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
-				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">1</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
-				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{9B1296BE-6823-4A4E-9F79-F2ACED5EC8F9}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2020</Property>
-				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
-				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[4].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[4].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
-				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
-				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
-				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2020 Non-English Support.</Property>
-				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
-				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI Logos 20.0</Property>
-				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
-				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
-				<Property Name="DistPart[4].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
-				<Property Name="DistPart[5].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[5].productID" Type="Str">{FEBCD3EC-49F7-49E3-9A41-794B5A00B1B0}</Property>
-				<Property Name="DistPart[5].productName" Type="Str">NI I/O Trace 20.0</Property>
-				<Property Name="DistPart[5].upgradeCode" Type="Str">{B87BCB47-3C93-11D4-88E6-0008C7C25519}</Property>
-				<Property Name="DistPart[6].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[6].productID" Type="Str">{BD8C6E18-4165-4F92-9010-60D2E8A50F9A}</Property>
-				<Property Name="DistPart[6].productName" Type="Str">NI DataSocket 19.0</Property>
-				<Property Name="DistPart[6].upgradeCode" Type="Str">{81A7E53E-9524-41CE-90D3-7DD3D90B6C58}</Property>
-				<Property Name="DistPart[7].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[7].productID" Type="Str">{84EDD624-82A5-4A41-8D30-CA43D7560540}</Property>
-				<Property Name="DistPart[7].productName" Type="Str">NI-DAQmx Runtime 20.1</Property>
-				<Property Name="DistPart[7].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPart[8].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[8].productID" Type="Str">{CDA77010-ED6A-4BF7-A8C5-FFC01BE54D7C}</Property>
-				<Property Name="DistPart[8].productName" Type="Str">NI-DAQmx Runtime with Configuration Support 20.1</Property>
-				<Property Name="DistPart[8].upgradeCode" Type="Str">{9856368A-ED47-4944-87BE-8EF3472AE39B}</Property>
-				<Property Name="DistPartCount" Type="Int">9</Property>
-				<Property Name="INST_author" Type="Str">ER</Property>
-				<Property Name="INST_buildLocation" Type="Path">/E/HXH型反应性仪</Property>
-				<Property Name="INST_buildSpecName" Type="Str">HXH型反应性仪安装包</Property>
-				<Property Name="INST_defaultDir" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_language" Type="Int">2052</Property>
-				<Property Name="INST_productName" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
-				<Property Name="MSI_arpCompany" Type="Str">核星核电科技(海盐)有限公司</Property>
-				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
-				<Property Name="MSI_arpURL" Type="Str">http://www.nustarnuclear.com/</Property>
-				<Property Name="MSI_distID" Type="Str">{F125B210-EE8F-4379-8414-7CAED134B0ED}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{D94904F2-5425-469C-AC76-FFF46C880298}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">HXH型动态数字反应性仪
-版权所有: 核星核电科技(海盐)有限公司
-
-www.nustarnuclear.com</Property>
-				<Property Name="MSI_windowTitle" Type="Str">欢迎使用HXH革新型动态数字反应性仪</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{81F641D5-612F-4D30-8677-5FB0C87D9A32}</Property>
-				<Property Name="Source[0].name" Type="Str">采集参数文件.dat</Property>
-				<Property Name="Source[0].tag" Type="Ref">/我的电脑/采集参数文件.dat</Property>
-				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[1].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref">/我的电脑/堆物理参数文件.dat</Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[2].name" Type="Str">公用设置参数.dat</Property>
-				<Property Name="Source[2].tag" Type="Ref">/我的电脑/公用设置参数.dat</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[3].name" Type="Str">输出参数文件.dat</Property>
-				<Property Name="Source[3].tag" Type="Ref">/我的电脑/输出参数文件.dat</Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[4].name" Type="Str">微电流源校准文件27353211.dat</Property>
-				<Property Name="Source[4].tag" Type="Ref">/我的电脑/微电流源校准文件27353211.dat</Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[5].name" Type="Str">微电流源校准文件27554458.dat</Property>
-				<Property Name="Source[5].tag" Type="Ref">/我的电脑/微电流源校准文件27554458.dat</Property>
-				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[6].name" Type="Str">微电流源校准文件27562712.dat</Property>
-				<Property Name="Source[6].tag" Type="Ref">/我的电脑/微电流源校准文件27562712.dat</Property>
-				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[7].name" Type="Str">CORE.JPG</Property>
-				<Property Name="Source[7].tag" Type="Ref">/我的电脑/CORE.JPG</Property>
-				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[8].name" Type="Str">TempREG.dat</Property>
-				<Property Name="Source[8].tag" Type="Ref">/我的电脑/TempREG.dat</Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
-				<Property Name="Source[9].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[9].File[0].Shortcut[0].name" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="Source[9].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
-				<Property Name="Source[9].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[9].File[0].Shortcut[1].name" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="Source[9].File[0].Shortcut[1].subDir" Type="Str"></Property>
-				<Property Name="Source[9].File[0].ShortcutCount" Type="Int">2</Property>
-				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
-				<Property Name="Source[9].FileCount" Type="Int">1</Property>
-				<Property Name="Source[9].name" Type="Str">HXH型反应性仪可执行程序</Property>
-				<Property Name="Source[9].tag" Type="Ref">/我的电脑/程序生成规范/HXH型反应性仪可执行程序</Property>
-				<Property Name="Source[9].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
-			</Item>
 			<Item Name="HXH型反应性仪旧版安装包" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">HXH型动态数字反应性仪</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
@@ -456,18 +291,293 @@ www.eipcore.com</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{81F641D5-612F-4D30-8677-5FB0C87D9A32}</Property>
 			</Item>
-			<Item Name="HXH型反应性仪可执行程序" Type="EXE">
+			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{0A544682-7390-49DD-8471-7F65403AD302}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI System Configuration Runtime 20.0.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{E7491C92-6FEB-4CD1-8F74-1C6909D1FBAD}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2019</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{944CC86F-BDFB-4850-878C-370B9A7FF12C}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 20.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{C15BFDB8-87FC-4033-8FFD-722BDCBB9B5C}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI Measurement &amp; Automation Explorer 20.0</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">1</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{9B1296BE-6823-4A4E-9F79-F2ACED5EC8F9}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2020</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2020 Non-English Support.</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
+				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{FEBCD3EC-49F7-49E3-9A41-794B5A00B1B0}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI I/O Trace 20.0</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{B87BCB47-3C93-11D4-88E6-0008C7C25519}</Property>
+				<Property Name="DistPart[6].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[6].productID" Type="Str">{BD8C6E18-4165-4F92-9010-60D2E8A50F9A}</Property>
+				<Property Name="DistPart[6].productName" Type="Str">NI DataSocket 19.0</Property>
+				<Property Name="DistPart[6].upgradeCode" Type="Str">{81A7E53E-9524-41CE-90D3-7DD3D90B6C58}</Property>
+				<Property Name="DistPart[7].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[7].productID" Type="Str">{84EDD624-82A5-4A41-8D30-CA43D7560540}</Property>
+				<Property Name="DistPart[7].productName" Type="Str">NI-DAQmx Runtime 20.1</Property>
+				<Property Name="DistPart[7].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[8].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[8].productID" Type="Str">{CDA77010-ED6A-4BF7-A8C5-FFC01BE54D7C}</Property>
+				<Property Name="DistPart[8].productName" Type="Str">NI-DAQmx Runtime with Configuration Support 20.1</Property>
+				<Property Name="DistPart[8].upgradeCode" Type="Str">{9856368A-ED47-4944-87BE-8EF3472AE39B}</Property>
+				<Property Name="DistPartCount" Type="Int">9</Property>
+				<Property Name="INST_author" Type="Str">ER</Property>
+				<Property Name="INST_buildLocation" Type="Path">/E/iRho-100型反应性仪安装包</Property>
+				<Property Name="INST_buildSpecName" Type="Str">iRho-100型反应性仪安装包</Property>
+				<Property Name="INST_defaultDir" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
+				<Property Name="MSI_arpCompany" Type="Str">核星核电科技(海盐)有限公司</Property>
+				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.nustarnuclear.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{F125B210-EE8F-4379-8414-7CAED134B0ED}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{D94904F2-5425-469C-AC76-FFF46C880298}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">iRho-100型反应性仪
+版权所有: 核星核电科技(海盐)有限公司
+
+www.nustarnuclear.com</Property>
+				<Property Name="MSI_windowTitle" Type="Str">欢迎使用iRho-100型反应性仪安装程序</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">iRho-100型反应性仪.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">iRho-100型反应性仪可执行程序</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/iRho-100型反应性仪可执行程序</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[1].name" Type="Str">采集参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/采集参数文件.dat</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[10].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[10].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[10].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[11].name" Type="Str">TempREG.dat</Property>
+				<Property Name="Source[11].tag" Type="Ref">/我的电脑/TempREG.dat</Property>
+				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[2].name" Type="Str">堆物理参数文件.dat</Property>
+				<Property Name="Source[2].tag" Type="Ref">/我的电脑/堆物理参数文件.dat</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[3].name" Type="Str">输出参数文件.dat</Property>
+				<Property Name="Source[3].tag" Type="Ref">/我的电脑/输出参数文件.dat</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[4].name" Type="Str">微电流源校准文件27353211.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref">/我的电脑/微电流源校准文件27353211.dat</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[5].name" Type="Str">微电流源校准文件27554458.dat</Property>
+				<Property Name="Source[5].tag" Type="Ref">/我的电脑/微电流源校准文件27554458.dat</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[6].name" Type="Str">微电流源校准文件27562712.dat</Property>
+				<Property Name="Source[6].tag" Type="Ref">/我的电脑/微电流源校准文件27562712.dat</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[7].name" Type="Str">公用设置参数.dat</Property>
+				<Property Name="Source[7].tag" Type="Ref">/我的电脑/公用设置参数.dat</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[8].name" Type="Str">CORE.JPG</Property>
+				<Property Name="Source[8].tag" Type="Ref">/我的电脑/CORE.JPG</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
+				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
+				<Property Name="Source[9].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[9].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
+			</Item>
+			<Item Name="iRho-100型反应性仪安装包(无依赖)" Type="Installer">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
+				<Property Name="AB_Temp_Project_Path" Type="Path">/D/LVprojects/ReactivityMeter/project/iRho-100型反应性仪.lvproj</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
+				<Property Name="Destination[0].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">ER</Property>
+				<Property Name="INST_buildLocation" Type="Path">/E/iRho-100型反应性仪安装包</Property>
+				<Property Name="INST_buildSpecName" Type="Str">iRho-100型反应性仪安装包(无依赖)</Property>
+				<Property Name="INST_defaultDir" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
+				<Property Name="MSI_arpCompany" Type="Str">核星核电科技(海盐)有限公司</Property>
+				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.nustarnuclear.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{FC6CF3E0-4B1D-4525-9081-F64370E22C4C}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{740BBB66-2A9E-4C85-ACAE-78E9C04BD4A9}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">iRho-100型反应性仪
+版权所有: 核星核电科技(海盐)有限公司
+
+www.nustarnuclear.com</Property>
+				<Property Name="MSI_windowTitle" Type="Str">欢迎使用iRho-100型反应性仪安装程序</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">iRho-100型反应性仪.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">iRho-100型反应性仪可执行程序</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/iRho-100型反应性仪可执行程序</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[1].name" Type="Str">采集参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/采集参数文件.dat</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[10].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[10].name" Type="Str">CORE.JPG</Property>
+				<Property Name="Source[10].tag" Type="Ref">/我的电脑/CORE.JPG</Property>
+				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[11].name" Type="Str">TempREG.dat</Property>
+				<Property Name="Source[11].tag" Type="Ref">/我的电脑/TempREG.dat</Property>
+				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[2].name" Type="Str">堆物理参数文件.dat</Property>
+				<Property Name="Source[2].tag" Type="Ref">/我的电脑/堆物理参数文件.dat</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[3].name" Type="Str">公用设置参数.dat</Property>
+				<Property Name="Source[3].tag" Type="Ref">/我的电脑/公用设置参数.dat</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[4].name" Type="Str">输出参数文件.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref">/我的电脑/输出参数文件.dat</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[5].name" Type="Str">微电流源校准文件27353211.dat</Property>
+				<Property Name="Source[5].tag" Type="Ref">/我的电脑/微电流源校准文件27353211.dat</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[6].name" Type="Str">微电流源校准文件27554458.dat</Property>
+				<Property Name="Source[6].tag" Type="Ref">/我的电脑/微电流源校准文件27554458.dat</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[7].name" Type="Str">微电流源校准文件27562712.dat</Property>
+				<Property Name="Source[7].tag" Type="Ref">/我的电脑/微电流源校准文件27562712.dat</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[8].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[8].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
+				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
+				<Property Name="Source[9].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[9].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
+			</Item>
+			<Item Name="iRho-100型反应性仪可执行程序" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{09FAAC2E-9763-445F-A1BB-C9D0C5B47F5B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{40AAE185-8BB6-4350-8110-D3AE43530436}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3FA04AAE-6C92-4095-9CDF-B27D47BD0CAF}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HXH型反应性仪可执行程序</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">iRho-100型反应性仪可执行程序</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/E/HXH型动态数字反应性仪EXE</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/E/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9070BDE0-8F7D-4E8A-85B7-F4E736A5172C}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">ChineseS</Property>
@@ -475,16 +585,16 @@ www.eipcore.com</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">HXH型动态数字反应性仪.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/E/HXH型动态数字反应性仪EXE/HXH型动态数字反应性仪.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">iRho-100型反应性仪.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/E/NI_AB_PROJECTNAME/iRho-100型反应性仪.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/E/HXH型动态数字反应性仪EXE/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/E/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E90B3013-E88F-481F-AAD5-CF6C67678878}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DD22B07D-694D-4395-A2E9-80D0AD0014E0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/logo.vi</Property>
@@ -559,12 +669,11 @@ www.eipcore.com</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">18</Property>
 				<Property Name="TgtF_companyName" Type="Str">核星核电科技(海盐)有限公司</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="TgtF_internalName" Type="Str">HXH型动态数字反应性仪</Property>
+				<Property Name="TgtF_internalName" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021  核星核电科技(海盐)有限公司</Property>
-				<Property Name="TgtF_productName" Type="Str">HXH型动态数字反应性仪EXE程序</Property>
+				<Property Name="TgtF_productName" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HXH型动态数字反应性仪.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">iRho-100型反应性仪.exe</Property>
 			</Item>
 		</Item>
 	</Item>
