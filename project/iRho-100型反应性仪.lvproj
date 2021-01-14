@@ -467,9 +467,6 @@ www.nustarnuclear.com</Property>
 				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 			<Item Name="iRho-100型反应性仪安装包(无依赖)" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_Temp_Project_Path" Type="Path">/D/LVprojects/ReactivityMeter/project/iRho-100型反应性仪.lvproj</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
@@ -594,7 +591,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Destination[1].path" Type="Path">/E/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DD22B07D-694D-4395-A2E9-80D0AD0014E0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F20398B9-67A9-4621-8819-4E760BCDBBA6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/logo.vi</Property>
