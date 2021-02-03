@@ -191,106 +191,6 @@
 			<Item Name="主界面菜单.rtm" Type="Document" URL="../../主界面菜单.rtm"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="HXH型反应性仪旧版安装包" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{FB289FBF-EBF2-4510-A2C9-D79D986AECBE}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI系统配置运行时 5.1.0</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{FDED748C-432B-4B44-BB33-3BB8550A2AD2}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI变量引擎2.5.0</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
-				<Property Name="DistPart[10].flavorID" Type="Str">_required_</Property>
-				<Property Name="DistPart[10].productID" Type="Str">{105271B2-81E8-4C84-B820-590BFBC5F958}</Property>
-				<Property Name="DistPart[10].productName" Type="Str">NI IVI组件包4.4.0</Property>
-				<Property Name="DistPart[10].upgradeCode" Type="Str">{7F99DDE8-6E52-443B-8938-EDBF54C6D28B}</Property>
-				<Property Name="DistPart[11].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[11].productID" Type="Str">{21EF2C48-A06F-4001-8E0B-72DCA779860F}</Property>
-				<Property Name="DistPart[11].productName" Type="Str">NI DataSocket 4.8</Property>
-				<Property Name="DistPart[11].upgradeCode" Type="Str">{81A7E53E-9524-41CE-90D3-7DD3D90B6C58}</Property>
-				<Property Name="DistPart[12].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[12].productID" Type="Str">{BF65A43C-18D6-4B58-BF89-D64CB06A6711}</Property>
-				<Property Name="DistPart[12].productName" Type="Str">NI-DAQmx 核心运行时 9.5</Property>
-				<Property Name="DistPart[12].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPart[13].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[13].productID" Type="Str">{2C93A7B7-E6E1-4C7B-B29E-89DBC66C2FA8}</Property>
-				<Property Name="DistPart[13].productName" Type="Str">NI-DAQmx MAX配置支持 9.5</Property>
-				<Property Name="DistPart[13].upgradeCode" Type="Str">{9856368A-ED47-4944-87BE-8EF3472AE39B}</Property>
-				<Property Name="DistPart[14].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[14].productID" Type="Str">{033FCC8C-A828-4B93-A8F8-CF0760BB0233}</Property>
-				<Property Name="DistPart[14].productName" Type="Str">NI-DAQmx 应用程序开发支持 9.5</Property>
-				<Property Name="DistPart[14].upgradeCode" Type="Str">{DBA9D0BD-729E-494F-AFA2-0BA464B875C2}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{85BA3FCF-AA00-4151-B97D-84A221E8198A}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 5.0.3</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{AA3A8F0A-B26A-4D95-86FD-53827DB4D058}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI Measurement &amp; Automation Explorer 5.1</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
-				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{49C6FE81-CE63-4B49-A295-7A10B96D36CD}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW部署版许可证2010</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{F0881D07-B74D-484D-A43D-5602697AC76D}</Property>
-				<Property Name="DistPart[5].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[5].productID" Type="Str">{7D64A463-C3C9-40B6-BC46-4DD7D0DE2BFD}</Property>
-				<Property Name="DistPart[5].productName" Type="Str">LabVIEW 2011运行引擎非英语语言支持。</Property>
-				<Property Name="DistPart[5].upgradeCode" Type="Str">{C18B7B2D-1490-40E1-A41E-6EFB0BE3246D}</Property>
-				<Property Name="DistPart[6].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[6].productID" Type="Str">{E0C32607-2DD4-4124-9A74-351D135FAD4B}</Property>
-				<Property Name="DistPart[6].productName" Type="Str">NI分布式系统管理器2010</Property>
-				<Property Name="DistPart[6].upgradeCode" Type="Str">{96404834-D484-4B24-AF79-C4D2F1A0CF12}</Property>
-				<Property Name="DistPart[7].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[7].productID" Type="Str">{9B1296BE-6823-4A4E-9F79-F2ACED5EC8F9}</Property>
-				<Property Name="DistPart[7].productName" Type="Str">NI LabVIEW Runtime 2020</Property>
-				<Property Name="DistPart[7].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
-				<Property Name="DistPart[8].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[8].productID" Type="Str">{8DA7D661-2184-4B78-8220-73F9878E9992}</Property>
-				<Property Name="DistPart[8].productName" Type="Str">NI USI 1.8.0</Property>
-				<Property Name="DistPart[8].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[9].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[9].productID" Type="Str">{9BF9F0A2-2CF9-4165-9A36-639381F54BE3}</Property>
-				<Property Name="DistPart[9].productName" Type="Str">NI I/O Trace 3.0.0</Property>
-				<Property Name="DistPart[9].upgradeCode" Type="Str">{B87BCB47-3C93-11D4-88E6-0008C7C25519}</Property>
-				<Property Name="DistPartCount" Type="Int">15</Property>
-				<Property Name="INST_author" Type="Str">ER</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/E/HXH型反应性仪Setup包installerPack</Property>
-				<Property Name="INST_buildSpecName" Type="Str">HXH型反应性仪旧版安装包</Property>
-				<Property Name="INST_defaultDir" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_language" Type="Int">2052</Property>
-				<Property Name="INST_productName" Type="Str">HXH型动态数字反应性仪</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.15</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
-				<Property Name="MSI_arpCompany" Type="Str">上海核星核电科技有限公司</Property>
-				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
-				<Property Name="MSI_arpURL" Type="Str">http://www.nustarnuclear.com/</Property>
-				<Property Name="MSI_distID" Type="Str">{65F7A354-EFBC-41AB-806D-72A42DF54512}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{A7F2C576-3CFC-4B03-AFC7-6E548B13A26A}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">HXH型动态数字反应性仪
-版权所有:上海核星核电科技有限公司&amp;北京芯核电子科技有限公司
-
-技术支持：15910783086   +8610-60337786
-www.eipcore.com</Property>
-				<Property Name="MSI_windowTitle" Type="Str">欢迎使用HXH革新型动态数字反应性仪</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{81F641D5-612F-4D30-8677-5FB0C87D9A32}</Property>
-			</Item>
 			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
@@ -591,7 +491,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Destination[1].path" Type="Path">/E/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F20398B9-67A9-4621-8819-4E760BCDBBA6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8A19885B-E2BD-497F-9BB7-DAF9E5E9212A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/logo.vi</Property>
