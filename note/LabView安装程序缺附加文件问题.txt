@@ -1,6 +1,0 @@
-daqmax配置模块
-daqmax开发模块(ADE)
-
-:安装程序不可省略每步重启动计算机,DAQ驱动安装时要允许更新以外的所有权限.
-
-破解用full版labview,勿忘panel unlimited
