@@ -45,9 +45,6 @@
 		<Item Name="临界安全监督数据处理.vi" Type="VI" URL="../../临界安全监督数据处理.vi"/>
 		<Item Name="输出参数设置.vi" Type="VI" URL="../../输出参数设置.vi"/>
 		<Item Name="输出参数文件.dat" Type="Document" URL="../../输出参数文件.dat"/>
-		<Item Name="微电流源校准文件27353211.dat" Type="Document" URL="../../微电流源校准文件27353211.dat"/>
-		<Item Name="微电流源校准文件27554458.dat" Type="Document" URL="../../微电流源校准文件27554458.dat"/>
-		<Item Name="微电流源校准文件27562712.dat" Type="Document" URL="../../微电流源校准文件27562712.dat"/>
 		<Item Name="新建数据文件夹.vi" Type="VI" URL="../../新建数据文件夹.vi"/>
 		<Item Name="源强计算.vi" Type="VI" URL="../../源强计算.vi"/>
 		<Item Name="指数电流信号.vi" Type="VI" URL="../../指数电流信号.vi"/>
@@ -339,15 +336,15 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[4].name" Type="Str">微电流源校准文件27353211.dat</Property>
-				<Property Name="Source[4].tag" Type="Ref">/我的电脑/微电流源校准文件27353211.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[5].name" Type="Str">微电流源校准文件27554458.dat</Property>
-				<Property Name="Source[5].tag" Type="Ref">/我的电脑/微电流源校准文件27554458.dat</Property>
+				<Property Name="Source[5].tag" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[6].name" Type="Str">微电流源校准文件27562712.dat</Property>
-				<Property Name="Source[6].tag" Type="Ref">/我的电脑/微电流源校准文件27562712.dat</Property>
+				<Property Name="Source[6].tag" Type="Ref"></Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[7].name" Type="Str">公用设置参数.dat</Property>
@@ -440,15 +437,15 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[5].name" Type="Str">微电流源校准文件27353211.dat</Property>
-				<Property Name="Source[5].tag" Type="Ref">/我的电脑/微电流源校准文件27353211.dat</Property>
+				<Property Name="Source[5].tag" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[6].name" Type="Str">微电流源校准文件27554458.dat</Property>
-				<Property Name="Source[6].tag" Type="Ref">/我的电脑/微电流源校准文件27554458.dat</Property>
+				<Property Name="Source[6].tag" Type="Ref"></Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[7].name" Type="Str">微电流源校准文件27562712.dat</Property>
-				<Property Name="Source[7].tag" Type="Ref">/我的电脑/微电流源校准文件27562712.dat</Property>
+				<Property Name="Source[7].tag" Type="Ref"></Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[8].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
