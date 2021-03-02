@@ -10,28 +10,33 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="堆芯装卸料图" Type="Folder">
-			<Item Name="Get Cell Value with Range.vi" Type="VI" URL="../../堆芯装卸料图/Get Cell Value with Range.vi"/>
-			<Item Name="Set Cell Value.vi" Type="VI" URL="../../堆芯装卸料图/Set Cell Value.vi"/>
-			<Item Name="堆芯装卸料图程序.vi" Type="VI" URL="../../堆芯装卸料图/堆芯装卸料图程序.vi"/>
-			<Item Name="画路径线条.vi" Type="VI" URL="../../堆芯装卸料图/画路径线条.vi"/>
-			<Item Name="行列至XY坐标计算.vi" Type="VI" URL="../../堆芯装卸料图/行列至XY坐标计算.vi"/>
-			<Item Name="组件位填充与清除.vi" Type="VI" URL="../../堆芯装卸料图/组件位填充与清除.vi"/>
+		<Item Name="utilities" Type="Folder" URL="../../utilities">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="多通道并行实测" Type="Folder">
 			<Item Name="DialogBox.vi" Type="VI" URL="../../多通道并行实测/DialogBox.vi"/>
+			<Item Name="DRWM模块.vi" Type="VI" URL="../../多通道并行实测/DRWM模块.vi"/>
+			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../../多通道并行实测/ReadSSF_DSF.vi"/>
+			<Item Name="ScaleLink.vi" Type="VI" URL="../../多通道并行实测/ScaleLink.vi"/>
 			<Item Name="多通道并行实测.vi" Type="VI" URL="../../多通道并行实测/多通道并行实测.vi"/>
 			<Item Name="反应性计算.vi" Type="VI" URL="../../多通道并行实测/反应性计算.vi"/>
+			<Item Name="滤波模块.vi" Type="VI" URL="../../多通道并行实测/滤波模块.vi"/>
+			<Item Name="曲线查看.vi" Type="VI" URL="../../多通道并行实测/曲线查看.vi"/>
+			<Item Name="源强与基线.vi" Type="VI" URL="../../多通道并行实测/源强与基线.vi"/>
 		</Item>
 		<Item Name="数据模拟实测" Type="Folder">
 			<Item Name="Dialog_Box.vi" Type="VI" URL="../../数据模拟实测/Dialog_Box.vi"/>
 			<Item Name="反应性模拟计算.vi" Type="VI" URL="../../数据模拟实测/反应性模拟计算.vi"/>
 			<Item Name="数据模拟实测.vi" Type="VI" URL="../../数据模拟实测/数据模拟实测.vi"/>
 		</Item>
-		<Item Name="CORE.JPG" Type="Document" URL="../../CORE.JPG"/>
+		<Item Name="About.vi" Type="VI" URL="../../About.vi"/>
+		<Item Name="DRWM_DSF.vi" Type="VI" URL="../../多通道并行实测/DRWM_DSF.vi"/>
+		<Item Name="GlobalVariable.vi" Type="VI" URL="../../GlobalVariable.vi"/>
 		<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../../iRhoV_SSFDSF_1.txt"/>
 		<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../../iRhoV_SSFDSF_2.txt"/>
+		<Item Name="LoadSSF_DSF.vi" Type="VI" URL="../../数据模拟实测/LoadSSF_DSF.vi"/>
 		<Item Name="logo.vi" Type="VI" URL="../../logo.vi"/>
+		<Item Name="Read_DR_DATA.vi" Type="VI" URL="../../数据模拟实测/Read_DR_DATA.vi"/>
 		<Item Name="TempREG.dat" Type="Document" URL="../../TempREG.dat"/>
 		<Item Name="采集参数设置.vi" Type="VI" URL="../../采集参数设置.vi"/>
 		<Item Name="采集参数文件.dat" Type="Document" URL="../../采集参数文件.dat"/>
@@ -41,29 +46,22 @@
 		<Item Name="堆物理参数文件.dat" Type="Document" URL="../../堆物理参数文件.dat"/>
 		<Item Name="反应性主程序.vi" Type="VI" URL="../../反应性主程序.vi"/>
 		<Item Name="公用设置参数.dat" Type="Document" URL="../../公用设置参数.dat"/>
-		<Item Name="临界安全监督实测.vi" Type="VI" URL="../../临界安全监督实测.vi"/>
-		<Item Name="临界安全监督数据处理.vi" Type="VI" URL="../../临界安全监督数据处理.vi"/>
+		<Item Name="离线数据源.vi" Type="VI" URL="../../离线数据源.vi"/>
+		<Item Name="时间校准.vi" Type="VI" URL="../../时间校准.vi"/>
 		<Item Name="输出参数设置.vi" Type="VI" URL="../../输出参数设置.vi"/>
 		<Item Name="输出参数文件.dat" Type="Document" URL="../../输出参数文件.dat"/>
 		<Item Name="新建数据文件夹.vi" Type="VI" URL="../../新建数据文件夹.vi"/>
-		<Item Name="源强计算.vi" Type="VI" URL="../../源强计算.vi"/>
-		<Item Name="指数电流信号.vi" Type="VI" URL="../../指数电流信号.vi"/>
-		<Item Name="指数电压信号.vi" Type="VI" URL="../../指数电压信号.vi"/>
 		<Item Name="周期拟合倒时反应性.vi" Type="VI" URL="../../周期拟合倒时反应性.vi"/>
+		<Item Name="主界面菜单.rtm" Type="Document" URL="../../主界面菜单.rtm"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
-				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
-				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
@@ -72,14 +70,6 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
-				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
-				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrorDescriptions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/ErrorDescriptions.vi"/>
@@ -89,18 +79,14 @@
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Initialize Mouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Mouse.vi"/>
 				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
 				<Item Name="keyboardAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/keyboardAcquire.vi"/>
@@ -108,30 +94,23 @@
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
-				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
-				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -139,18 +118,9 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
-				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
-			<Item Name="1D_2Period.vi" Type="VI" URL="../../多通道并行实测/1D_2Period.vi"/>
-			<Item Name="About.vi" Type="VI" URL="../../About.vi"/>
-			<Item Name="DRWM_DSF.vi" Type="VI" URL="../../多通道并行实测/DRWM_DSF.vi"/>
-			<Item Name="DRWM模块.vi" Type="VI" URL="../../多通道并行实测/DRWM模块.vi"/>
-			<Item Name="GlobalVariable.vi" Type="VI" URL="../../GlobalVariable.vi"/>
 			<Item Name="LoadAndRun.vi" Type="VI" URL="../../subpanel.llb/LoadAndRun.vi"/>
-			<Item Name="LoadSSF_DSF.vi" Type="VI" URL="../../数据模拟实测/LoadSSF_DSF.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Decode Data.vi"/>
@@ -171,21 +141,6 @@
 			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Modbus Command to Data Unit.vi"/>
 			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../../TCPModbus_MasterClient/MB Modbus Command.ctl"/>
 			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../TCPModbus_MasterClient/MB Modbus Data Unit.ctl"/>
-			<Item Name="Open Excel and Make Visible.vi" Type="VI" URL="../../ExcelExamples.llb/Open Excel and Make Visible.vi"/>
-			<Item Name="Open New WorkSheet.vi" Type="VI" URL="../../ExcelExamples.llb/Open New WorkSheet.vi"/>
-			<Item Name="Open Specific WorkBook.vi" Type="VI" URL="../../ExcelExamples.llb/Open Specific WorkBook.vi"/>
-			<Item Name="Read_DR_DATA.vi" Type="VI" URL="../../数据模拟实测/Read_DR_DATA.vi"/>
-			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../../多通道并行实测/ReadSSF_DSF.vi"/>
-			<Item Name="Row Col To Range Format.vi" Type="VI" URL="../../ExcelExamples.llb/Row Col To Range Format.vi"/>
-			<Item Name="ScaleLink.vi" Type="VI" URL="../../多通道并行实测/ScaleLink.vi"/>
-			<Item Name="simple exp model.vi" Type="VI" URL="../../curvefit.llb/simple exp model.vi"/>
-			<Item Name="XY_Dialog.vi" Type="VI" URL="../../XY_Dialog.vi"/>
-			<Item Name="离线数据源.vi" Type="VI" URL="../../离线数据源.vi"/>
-			<Item Name="滤波模块.vi" Type="VI" URL="../../多通道并行实测/滤波模块.vi"/>
-			<Item Name="曲线查看.vi" Type="VI" URL="../../多通道并行实测/曲线查看.vi"/>
-			<Item Name="时间校准.vi" Type="VI" URL="../../时间校准.vi"/>
-			<Item Name="源强与基线.vi" Type="VI" URL="../../多通道并行实测/源强与基线.vi"/>
-			<Item Name="主界面菜单.rtm" Type="Document" URL="../../主界面菜单.rtm"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
@@ -352,7 +307,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[8].name" Type="Str">CORE.JPG</Property>
-				<Property Name="Source[8].tag" Type="Ref">/我的电脑/CORE.JPG</Property>
+				<Property Name="Source[8].tag" Type="Ref"></Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
@@ -417,7 +372,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[10].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[10].name" Type="Str">CORE.JPG</Property>
-				<Property Name="Source[10].tag" Type="Ref">/我的电脑/CORE.JPG</Property>
+				<Property Name="Source[10].tag" Type="Ref"></Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
 				<Property Name="Source[11].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[11].name" Type="Str">TempREG.dat</Property>
@@ -500,7 +455,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/临界安全监督数据处理.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
@@ -512,15 +467,15 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/源强计算.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/指数电流信号.vi</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/指数电压信号.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
@@ -536,7 +491,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/临界安全监督实测.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
@@ -558,7 +513,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/堆芯装卸料图</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">18</Property>
