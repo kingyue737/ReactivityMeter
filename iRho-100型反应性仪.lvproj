@@ -10,49 +10,39 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="utilities" Type="Folder" URL="../../utilities">
+		<Item Name="configure" Type="Folder">
+			<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../iRhoV_SSFDSF_1.txt"/>
+			<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../iRhoV_SSFDSF_2.txt"/>
+			<Item Name="TempREG.dat" Type="Document" URL="../TempREG.dat"/>
+			<Item Name="采集参数文件.dat" Type="Document" URL="../采集参数文件.dat"/>
+			<Item Name="堆物理参数文件.dat" Type="Document" URL="../堆物理参数文件.dat"/>
+			<Item Name="公用设置参数.dat" Type="Document" URL="../公用设置参数.dat"/>
+			<Item Name="输出参数文件.dat" Type="Document" URL="../输出参数文件.dat"/>
+		</Item>
+		<Item Name="utilities" Type="Folder" URL="../utilities">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="多通道并行实测" Type="Folder">
-			<Item Name="DialogBox.vi" Type="VI" URL="../../多通道并行实测/DialogBox.vi"/>
-			<Item Name="DRWM模块.vi" Type="VI" URL="../../多通道并行实测/DRWM模块.vi"/>
-			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../../多通道并行实测/ReadSSF_DSF.vi"/>
-			<Item Name="ScaleLink.vi" Type="VI" URL="../../多通道并行实测/ScaleLink.vi"/>
-			<Item Name="多通道并行实测.vi" Type="VI" URL="../../多通道并行实测/多通道并行实测.vi"/>
-			<Item Name="反应性计算.vi" Type="VI" URL="../../多通道并行实测/反应性计算.vi"/>
-			<Item Name="滤波模块.vi" Type="VI" URL="../../多通道并行实测/滤波模块.vi"/>
-			<Item Name="曲线查看.vi" Type="VI" URL="../../多通道并行实测/曲线查看.vi"/>
-			<Item Name="源强与基线.vi" Type="VI" URL="../../多通道并行实测/源强与基线.vi"/>
+		<Item Name="多通道并行实测" Type="Folder" URL="../多通道并行实测">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="数据模拟实测" Type="Folder">
-			<Item Name="Dialog_Box.vi" Type="VI" URL="../../数据模拟实测/Dialog_Box.vi"/>
-			<Item Name="反应性模拟计算.vi" Type="VI" URL="../../数据模拟实测/反应性模拟计算.vi"/>
-			<Item Name="数据模拟实测.vi" Type="VI" URL="../../数据模拟实测/数据模拟实测.vi"/>
+		<Item Name="数据模拟实测" Type="Folder" URL="../数据模拟实测">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="About.vi" Type="VI" URL="../../About.vi"/>
-		<Item Name="DRWM_DSF.vi" Type="VI" URL="../../多通道并行实测/DRWM_DSF.vi"/>
-		<Item Name="GlobalVariable.vi" Type="VI" URL="../../GlobalVariable.vi"/>
-		<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../../iRhoV_SSFDSF_1.txt"/>
-		<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../../iRhoV_SSFDSF_2.txt"/>
-		<Item Name="LoadSSF_DSF.vi" Type="VI" URL="../../数据模拟实测/LoadSSF_DSF.vi"/>
-		<Item Name="logo.vi" Type="VI" URL="../../logo.vi"/>
-		<Item Name="Read_DR_DATA.vi" Type="VI" URL="../../数据模拟实测/Read_DR_DATA.vi"/>
-		<Item Name="TempREG.dat" Type="Document" URL="../../TempREG.dat"/>
-		<Item Name="采集参数设置.vi" Type="VI" URL="../../采集参数设置.vi"/>
-		<Item Name="采集参数文件.dat" Type="Document" URL="../../采集参数文件.dat"/>
-		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../../测棒价值数据处理.vi"/>
-		<Item Name="打开数据文件夹.vi" Type="VI" URL="../../打开数据文件夹.vi"/>
-		<Item Name="堆物理参数设置.vi" Type="VI" URL="../../堆物理参数设置.vi"/>
-		<Item Name="堆物理参数文件.dat" Type="Document" URL="../../堆物理参数文件.dat"/>
-		<Item Name="反应性主程序.vi" Type="VI" URL="../../反应性主程序.vi"/>
-		<Item Name="公用设置参数.dat" Type="Document" URL="../../公用设置参数.dat"/>
-		<Item Name="离线数据源.vi" Type="VI" URL="../../离线数据源.vi"/>
-		<Item Name="时间校准.vi" Type="VI" URL="../../时间校准.vi"/>
-		<Item Name="输出参数设置.vi" Type="VI" URL="../../输出参数设置.vi"/>
-		<Item Name="输出参数文件.dat" Type="Document" URL="../../输出参数文件.dat"/>
-		<Item Name="新建数据文件夹.vi" Type="VI" URL="../../新建数据文件夹.vi"/>
-		<Item Name="周期拟合倒时反应性.vi" Type="VI" URL="../../周期拟合倒时反应性.vi"/>
-		<Item Name="主界面菜单.rtm" Type="Document" URL="../../主界面菜单.rtm"/>
+		<Item Name="About.vi" Type="VI" URL="../About.vi"/>
+		<Item Name="GlobalVariable.vi" Type="VI" URL="../GlobalVariable.vi"/>
+		<Item Name="LoadAndRun.vi" Type="VI" URL="../subpanel.llb/LoadAndRun.vi"/>
+		<Item Name="logo.vi" Type="VI" URL="../logo.vi"/>
+		<Item Name="采集参数设置.vi" Type="VI" URL="../采集参数设置.vi"/>
+		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../测棒价值数据处理.vi"/>
+		<Item Name="打开数据文件夹.vi" Type="VI" URL="../打开数据文件夹.vi"/>
+		<Item Name="堆物理参数设置.vi" Type="VI" URL="../堆物理参数设置.vi"/>
+		<Item Name="反应性主程序.vi" Type="VI" URL="../反应性主程序.vi"/>
+		<Item Name="离线数据源.vi" Type="VI" URL="../离线数据源.vi"/>
+		<Item Name="时间校准.vi" Type="VI" URL="../时间校准.vi"/>
+		<Item Name="输出参数设置.vi" Type="VI" URL="../输出参数设置.vi"/>
+		<Item Name="新建数据文件夹.vi" Type="VI" URL="../新建数据文件夹.vi"/>
+		<Item Name="周期拟合倒时反应性.vi" Type="VI" URL="../周期拟合倒时反应性.vi"/>
+		<Item Name="主界面菜单.rtm" Type="Document" URL="../主界面菜单.rtm"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -120,27 +110,26 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="LoadAndRun.vi" Type="VI" URL="../../subpanel.llb/LoadAndRun.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="MB Decode Data.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Decode Data.vi"/>
-			<Item Name="MB Ethernet Master Query (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Coils (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Read Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Discrete Inputs (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Read Discrete Inputs (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Exception Status (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Read Exception Status (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Input Registers (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Read Input Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Coil (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Write Single Coil (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query Write Single Register (poly).vi"/>
-			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Master Query.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../../TCPModbus_MasterClient/MB Modbus Command to Data Unit.vi"/>
-			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../../TCPModbus_MasterClient/MB Modbus Command.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../TCPModbus_MasterClient/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Decode Data.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Decode Data.vi"/>
+			<Item Name="MB Ethernet Master Query (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Coils (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Coils (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Discrete Inputs (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Discrete Inputs (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Exception Status (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Exception Status (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Input Registers (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Input Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Single Coil (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Single Coil (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Single Register (poly).vi"/>
+			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query.vi"/>
+			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Receive.vi"/>
+			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet String to Modbus Data Unit.vi"/>
+			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Transmit.vi"/>
+			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Modbus Command to Data Unit.vi"/>
+			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../TCPModbus_MasterClient/MB Modbus Command.ctl"/>
+			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../TCPModbus_MasterClient/MB Modbus Data Unit.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
@@ -237,7 +226,7 @@
 				<Property Name="INST_productName" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
 				<Property Name="MSI_arpCompany" Type="Str">核星核电科技(海盐)有限公司</Property>
 				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
 				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
@@ -271,52 +260,36 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[1].name" Type="Str">采集参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref">/我的电脑/采集参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/configure/采集参数文件.dat</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[10].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
-				<Property Name="Source[10].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_2.txt</Property>
-				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[11].name" Type="Str">TempREG.dat</Property>
-				<Property Name="Source[11].tag" Type="Ref">/我的电脑/TempREG.dat</Property>
-				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[2].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[2].tag" Type="Ref">/我的电脑/堆物理参数文件.dat</Property>
+				<Property Name="Source[2].tag" Type="Ref">/我的电脑/configure/堆物理参数文件.dat</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[3].name" Type="Str">输出参数文件.dat</Property>
-				<Property Name="Source[3].tag" Type="Ref">/我的电脑/输出参数文件.dat</Property>
+				<Property Name="Source[3].tag" Type="Ref">/我的电脑/configure/输出参数文件.dat</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[4].name" Type="Str">微电流源校准文件27353211.dat</Property>
-				<Property Name="Source[4].tag" Type="Ref"></Property>
+				<Property Name="Source[4].name" Type="Str">公用设置参数.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref">/我的电脑/configure/公用设置参数.dat</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[5].name" Type="Str">微电流源校准文件27554458.dat</Property>
-				<Property Name="Source[5].tag" Type="Ref"></Property>
+				<Property Name="Source[5].name" Type="Str">TempREG.dat</Property>
+				<Property Name="Source[5].tag" Type="Ref">/我的电脑/configure/TempREG.dat</Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[6].name" Type="Str">微电流源校准文件27562712.dat</Property>
-				<Property Name="Source[6].tag" Type="Ref"></Property>
+				<Property Name="Source[6].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[6].tag" Type="Ref">/我的电脑/configure/iRhoV_SSFDSF_1.txt</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[7].name" Type="Str">公用设置参数.dat</Property>
-				<Property Name="Source[7].tag" Type="Ref">/我的电脑/公用设置参数.dat</Property>
+				<Property Name="Source[7].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[7].tag" Type="Ref">/我的电脑/configure/iRhoV_SSFDSF_2.txt</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[8].name" Type="Str">CORE.JPG</Property>
-				<Property Name="Source[8].tag" Type="Ref"></Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
 				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
-				<Property Name="Source[9].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
-				<Property Name="Source[9].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_1.txt</Property>
-				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="iRho-100型反应性仪安装包(无依赖)" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">iRho-100型反应性仪</Property>
@@ -334,7 +307,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="INST_productName" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
 				<Property Name="MSI_arpCompany" Type="Str">核星核电科技(海盐)有限公司</Property>
 				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
 				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
@@ -368,52 +341,36 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[1].name" Type="Str">采集参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref">/我的电脑/采集参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/configure/采集参数文件.dat</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[10].name" Type="Str">CORE.JPG</Property>
-				<Property Name="Source[10].tag" Type="Ref"></Property>
-				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[11].name" Type="Str">TempREG.dat</Property>
-				<Property Name="Source[11].tag" Type="Ref">/我的电脑/TempREG.dat</Property>
-				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[2].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[2].tag" Type="Ref">/我的电脑/堆物理参数文件.dat</Property>
+				<Property Name="Source[2].tag" Type="Ref">/我的电脑/configure/堆物理参数文件.dat</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[3].name" Type="Str">公用设置参数.dat</Property>
-				<Property Name="Source[3].tag" Type="Ref">/我的电脑/公用设置参数.dat</Property>
+				<Property Name="Source[3].tag" Type="Ref">/我的电脑/configure/公用设置参数.dat</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[4].name" Type="Str">输出参数文件.dat</Property>
-				<Property Name="Source[4].tag" Type="Ref">/我的电脑/输出参数文件.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref">/我的电脑/configure/输出参数文件.dat</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[5].name" Type="Str">微电流源校准文件27353211.dat</Property>
-				<Property Name="Source[5].tag" Type="Ref"></Property>
+				<Property Name="Source[5].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[5].tag" Type="Ref">/我的电脑/configure/iRhoV_SSFDSF_1.txt</Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[6].name" Type="Str">微电流源校准文件27554458.dat</Property>
-				<Property Name="Source[6].tag" Type="Ref"></Property>
+				<Property Name="Source[6].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[6].tag" Type="Ref">/我的电脑/configure/iRhoV_SSFDSF_2.txt</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[7].name" Type="Str">微电流源校准文件27562712.dat</Property>
-				<Property Name="Source[7].tag" Type="Ref"></Property>
+				<Property Name="Source[7].name" Type="Str">TempREG.dat</Property>
+				<Property Name="Source[7].tag" Type="Ref">/我的电脑/configure/TempREG.dat</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
-				<Property Name="Source[8].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
-				<Property Name="Source[8].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_1.txt</Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
 				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
-				<Property Name="Source[9].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
-				<Property Name="Source[9].tag" Type="Ref">/我的电脑/iRhoV_SSFDSF_2.txt</Property>
-				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="iRho-100型反应性仪可执行程序" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -500,7 +457,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/多通道并行实测</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
