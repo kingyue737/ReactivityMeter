@@ -33,6 +33,7 @@
 		<Item Name="IPDialog.vi" Type="VI" URL="../IPDialog.vi"/>
 		<Item Name="LoadAndRun.vi" Type="VI" URL="../subpanel.llb/LoadAndRun.vi"/>
 		<Item Name="logo.vi" Type="VI" URL="../logo.vi"/>
+		<Item Name="PathDialog.vi" Type="VI" URL="../PathDialog.vi"/>
 		<Item Name="SettingVariable.vi" Type="VI" URL="../global/SettingVariable.vi"/>
 		<Item Name="采集参数设置.vi" Type="VI" URL="../采集参数设置.vi"/>
 		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../测棒价值数据处理.vi"/>
