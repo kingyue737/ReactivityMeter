@@ -1,1 +1,4 @@
 experiences/
+*.aliases
+*.lvlps
+*.ini
