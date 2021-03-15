@@ -11,13 +11,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="configure" Type="Folder">
+			<Item Name="configure.ini" Type="Document" URL="../configure.ini"/>
 			<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../iRhoV_SSFDSF_1.txt"/>
 			<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../iRhoV_SSFDSF_2.txt"/>
-			<Item Name="TempREG.dat" Type="Document" URL="../TempREG.dat"/>
-			<Item Name="采集参数文件.dat" Type="Document" URL="../采集参数文件.dat"/>
-			<Item Name="堆物理参数文件.dat" Type="Document" URL="../堆物理参数文件.dat"/>
-			<Item Name="公用设置参数.dat" Type="Document" URL="../公用设置参数.dat"/>
-			<Item Name="输出参数文件.dat" Type="Document" URL="../输出参数文件.dat"/>
+			<Item Name="physics.ini" Type="Document" URL="../physics.ini"/>
+		</Item>
+		<Item Name="global" Type="Folder" URL="../global">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="settingsDialogs" Type="Folder" URL="../settingsDialogs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="utilities" Type="Folder" URL="../utilities">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -29,22 +32,10 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="About.vi" Type="VI" URL="../About.vi"/>
-		<Item Name="GlobalVariable.vi" Type="VI" URL="../GlobalVariable.vi"/>
-		<Item Name="IPDialog.vi" Type="VI" URL="../IPDialog.vi"/>
-		<Item Name="LoadAndRun.vi" Type="VI" URL="../subpanel.llb/LoadAndRun.vi"/>
-		<Item Name="logo.vi" Type="VI" URL="../logo.vi"/>
-		<Item Name="PathDialog.vi" Type="VI" URL="../PathDialog.vi"/>
-		<Item Name="SettingVariable.vi" Type="VI" URL="../global/SettingVariable.vi"/>
-		<Item Name="采集参数设置.vi" Type="VI" URL="../采集参数设置.vi"/>
+		<Item Name="Reactivity Fitting.vi" Type="VI" URL="../Reactivity Fitting.vi"/>
 		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../测棒价值数据处理.vi"/>
-		<Item Name="打开数据文件夹.vi" Type="VI" URL="../打开数据文件夹.vi"/>
-		<Item Name="堆物理参数设置.vi" Type="VI" URL="../堆物理参数设置.vi"/>
 		<Item Name="反应性主程序.vi" Type="VI" URL="../反应性主程序.vi"/>
-		<Item Name="离线数据源.vi" Type="VI" URL="../离线数据源.vi"/>
 		<Item Name="时间校准.vi" Type="VI" URL="../时间校准.vi"/>
-		<Item Name="输出参数设置.vi" Type="VI" URL="../输出参数设置.vi"/>
-		<Item Name="新建数据文件夹.vi" Type="VI" URL="../新建数据文件夹.vi"/>
-		<Item Name="周期拟合倒时反应性.vi" Type="VI" URL="../周期拟合倒时反应性.vi"/>
 		<Item Name="主界面菜单.rtm" Type="Document" URL="../主界面菜单.rtm"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -265,23 +256,23 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[1].name" Type="Str">采集参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref">/我的电脑/configure/采集参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[2].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[2].tag" Type="Ref">/我的电脑/configure/堆物理参数文件.dat</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[3].name" Type="Str">输出参数文件.dat</Property>
-				<Property Name="Source[3].tag" Type="Ref">/我的电脑/configure/输出参数文件.dat</Property>
+				<Property Name="Source[3].tag" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[4].name" Type="Str">公用设置参数.dat</Property>
-				<Property Name="Source[4].tag" Type="Ref">/我的电脑/configure/公用设置参数.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[5].name" Type="Str">TempREG.dat</Property>
-				<Property Name="Source[5].tag" Type="Ref">/我的电脑/configure/TempREG.dat</Property>
+				<Property Name="Source[5].tag" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[6].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
@@ -346,19 +337,19 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[1].name" Type="Str">采集参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref">/我的电脑/configure/采集参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[2].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[2].tag" Type="Ref">/我的电脑/configure/堆物理参数文件.dat</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[3].name" Type="Str">公用设置参数.dat</Property>
-				<Property Name="Source[3].tag" Type="Ref">/我的电脑/configure/公用设置参数.dat</Property>
+				<Property Name="Source[3].tag" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[4].name" Type="Str">输出参数文件.dat</Property>
-				<Property Name="Source[4].tag" Type="Ref">/我的电脑/configure/输出参数文件.dat</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[5].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
@@ -370,7 +361,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[7].name" Type="Str">TempREG.dat</Property>
-				<Property Name="Source[7].tag" Type="Ref">/我的电脑/configure/TempREG.dat</Property>
+				<Property Name="Source[7].tag" Type="Ref"></Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
 				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
@@ -408,7 +399,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].itemID" Type="Str">{8A19885B-E2BD-497F-9BB7-DAF9E5E9212A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/logo.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
@@ -421,11 +412,11 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/输出参数设置.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/新建数据文件夹.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref"></Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
@@ -445,11 +436,11 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/采集参数设置.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/堆物理参数设置.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -457,7 +448,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/周期拟合倒时反应性.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
@@ -470,7 +461,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/打开数据文件夹.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
