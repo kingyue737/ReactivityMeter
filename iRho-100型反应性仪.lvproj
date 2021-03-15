@@ -11,10 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="configure" Type="Folder">
-			<Item Name="configure.ini" Type="Document" URL="../configure.ini"/>
 			<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../iRhoV_SSFDSF_1.txt"/>
 			<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../iRhoV_SSFDSF_2.txt"/>
-			<Item Name="physics.ini" Type="Document" URL="../physics.ini"/>
 		</Item>
 		<Item Name="global" Type="Folder" URL="../global">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -32,11 +30,10 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="About.vi" Type="VI" URL="../About.vi"/>
+		<Item Name="main menu.rtm" Type="Document" URL="../main menu.rtm"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Reactivity Fitting.vi" Type="VI" URL="../Reactivity Fitting.vi"/>
-		<Item Name="测棒价值数据处理.vi" Type="VI" URL="../测棒价值数据处理.vi"/>
-		<Item Name="反应性主程序.vi" Type="VI" URL="../反应性主程序.vi"/>
-		<Item Name="时间校准.vi" Type="VI" URL="../时间校准.vi"/>
-		<Item Name="主界面菜单.rtm" Type="Document" URL="../主界面菜单.rtm"/>
+		<Item Name="Rod Value Measurement.vi" Type="VI" URL="../Rod Value Measurement.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -432,7 +429,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/反应性主程序.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/main.vi</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -457,7 +454,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/测棒价值数据处理.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/Rod Value Measurement.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
