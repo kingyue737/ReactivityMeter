@@ -14,26 +14,54 @@
 			<Item Name="iRhoV_SSFDSF_1.txt" Type="Document" URL="../iRhoV_SSFDSF_1.txt"/>
 			<Item Name="iRhoV_SSFDSF_2.txt" Type="Document" URL="../iRhoV_SSFDSF_2.txt"/>
 		</Item>
-		<Item Name="global" Type="Folder" URL="../global">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="global" Type="Folder">
+			<Item Name="GlobalVariable.vi" Type="VI" URL="../src/global/GlobalVariable.vi"/>
+			<Item Name="SettingVariable.vi" Type="VI" URL="../src/global/SettingVariable.vi"/>
 		</Item>
-		<Item Name="settingsDialogs" Type="Folder" URL="../settingsDialogs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="settingsDialogs" Type="Folder">
+			<Item Name="InputDialog.vi" Type="VI" URL="../src/settingsDialogs/InputDialog.vi"/>
+			<Item Name="IPDialog.vi" Type="VI" URL="../src/settingsDialogs/IPDialog.vi"/>
+			<Item Name="OutputDialog.vi" Type="VI" URL="../src/settingsDialogs/OutputDialog.vi"/>
+			<Item Name="PathDialog.vi" Type="VI" URL="../src/settingsDialogs/PathDialog.vi"/>
+			<Item Name="PhysicsDialog.vi" Type="VI" URL="../src/settingsDialogs/PhysicsDialog.vi"/>
 		</Item>
-		<Item Name="utilities" Type="Folder" URL="../utilities">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="utilities" Type="Folder">
+			<Item Name="FitPeriod.lvtest" Type="TestItem" URL="../src/utilities/FitPeriod.lvtest">
+				<Property Name="utf.test.bind" Type="Str">FitPeriod.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">82718241-18D6-1D56-5459-4DB1C957CFF7</Property>
+			</Item>
+			<Item Name="FitPeriod.vi" Type="VI" URL="../src/utilities/FitPeriod.vi"/>
+			<Item Name="ReadDataFile.vi" Type="VI" URL="../src/utilities/ReadDataFile.vi"/>
+			<Item Name="ReadIOSettings.vi" Type="VI" URL="../src/utilities/ReadIOSettings.vi"/>
+			<Item Name="ReadPhysicalParam.vi" Type="VI" URL="../src/utilities/ReadPhysicalParam.vi"/>
+			<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/utilities/ReadPhysicsSettings.vi"/>
 		</Item>
-		<Item Name="多通道并行实测" Type="Folder" URL="../多通道并行实测">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="多通道并行实测" Type="Folder">
+			<Item Name="DialogBox.vi" Type="VI" URL="../src/多通道并行实测/DialogBox.vi"/>
+			<Item Name="DRWM_DSF.vi" Type="VI" URL="../src/多通道并行实测/DRWM_DSF.vi"/>
+			<Item Name="DRWM模块.vi" Type="VI" URL="../src/多通道并行实测/DRWM模块.vi"/>
+			<Item Name="DRWM模块_两列DSF.vi" Type="VI" URL="../src/多通道并行实测/DRWM模块_两列DSF.vi"/>
+			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../src/多通道并行实测/ReadSSF_DSF.vi"/>
+			<Item Name="ReadSSF_DSF_两列DSF.vi" Type="VI" URL="../src/多通道并行实测/ReadSSF_DSF_两列DSF.vi"/>
+			<Item Name="ScaleLink.vi" Type="VI" URL="../src/多通道并行实测/ScaleLink.vi"/>
+			<Item Name="多通道并行实测.vi" Type="VI" URL="../src/多通道并行实测/多通道并行实测.vi"/>
+			<Item Name="反应性计算.vi" Type="VI" URL="../src/多通道并行实测/反应性计算.vi"/>
+			<Item Name="滤波模块.vi" Type="VI" URL="../src/多通道并行实测/滤波模块.vi"/>
+			<Item Name="曲线查看.vi" Type="VI" URL="../src/多通道并行实测/曲线查看.vi"/>
+			<Item Name="源强与基线.vi" Type="VI" URL="../src/多通道并行实测/源强与基线.vi"/>
 		</Item>
-		<Item Name="数据模拟实测" Type="Folder" URL="../数据模拟实测">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="数据模拟实测" Type="Folder">
+			<Item Name="Dialog_Box.vi" Type="VI" URL="../src/数据模拟实测/Dialog_Box.vi"/>
+			<Item Name="LoadSSF_DSF.vi" Type="VI" URL="../src/数据模拟实测/LoadSSF_DSF.vi"/>
+			<Item Name="Read_DR_DATA.vi" Type="VI" URL="../src/数据模拟实测/Read_DR_DATA.vi"/>
+			<Item Name="反应性模拟计算.vi" Type="VI" URL="../src/数据模拟实测/反应性模拟计算.vi"/>
+			<Item Name="数据模拟实测.vi" Type="VI" URL="../src/数据模拟实测/数据模拟实测.vi"/>
 		</Item>
-		<Item Name="About.vi" Type="VI" URL="../About.vi"/>
-		<Item Name="main menu.rtm" Type="Document" URL="../main menu.rtm"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Reactivity Fitting.vi" Type="VI" URL="../Reactivity Fitting.vi"/>
-		<Item Name="Rod Value Measurement.vi" Type="VI" URL="../Rod Value Measurement.vi"/>
+		<Item Name="About.vi" Type="VI" URL="../src/About.vi"/>
+		<Item Name="main menu.rtm" Type="Document" URL="../src/main menu.rtm"/>
+		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
+		<Item Name="Reactivity Fitting.vi" Type="VI" URL="../src/Reactivity Fitting.vi"/>
+		<Item Name="Rod Value Measurement.vi" Type="VI" URL="../src/Rod Value Measurement.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -105,19 +133,24 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="MB Ethernet Connection Function.ctl" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Connection Function.ctl"/>
-			<Item Name="MB Ethernet Connection Manager.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Connection Manager.vi"/>
-			<Item Name="MB Ethernet Is Address Valid.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Is Address Valid.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet RefCount.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet RefCount.vi"/>
-			<Item Name="MB Ethernet Slave Communication.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Slave Communication.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Globals.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Globals.vi"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Modbus Data Unit.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../utilities/NI_Modbus.llb/MB Modbus Data Unit.ctl"/>
-			<Item Name="MB RefCount Function.ctl" Type="VI" URL="../utilities/NI_Modbus.llb/MB RefCount Function.ctl"/>
-			<Item Name="MB Registers Manager.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Registers Manager.vi"/>
+			<Item Name="MB Decode Data.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Decode Data.vi"/>
+			<Item Name="MB Ethernet Master Query (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Coils (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Read Coils (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Discrete Inputs (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Read Discrete Inputs (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Exception Status (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Read Exception Status (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Read Input Registers (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Read Input Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Single Coil (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Write Single Coil (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query Write Single Register (poly).vi"/>
+			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Master Query.vi"/>
+			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Receive.vi"/>
+			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet String to Modbus Data Unit.vi"/>
+			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Ethernet Transmit.vi"/>
+			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Modbus Command to Data Unit.vi"/>
+			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Modbus Command.ctl"/>
+			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Modbus Data Unit.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
