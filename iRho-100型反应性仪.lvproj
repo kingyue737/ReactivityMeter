@@ -105,24 +105,19 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="MB Decode Data.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Decode Data.vi"/>
-			<Item Name="MB Ethernet Master Query (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Coils (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Discrete Inputs (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Discrete Inputs (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Exception Status (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Exception Status (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Read Input Registers (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Read Input Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Coil (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Single Coil (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query Write Single Register (poly).vi"/>
-			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Master Query.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../TCPModbus_MasterClient/MB Modbus Command to Data Unit.vi"/>
-			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../TCPModbus_MasterClient/MB Modbus Command.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../TCPModbus_MasterClient/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Ethernet Connection Function.ctl" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Connection Function.ctl"/>
+			<Item Name="MB Ethernet Connection Manager.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Connection Manager.vi"/>
+			<Item Name="MB Ethernet Is Address Valid.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Is Address Valid.vi"/>
+			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Ethernet Receive.vi"/>
+			<Item Name="MB Ethernet RefCount.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet RefCount.vi"/>
+			<Item Name="MB Ethernet Slave Communication.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Ethernet Slave Communication.vi"/>
+			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Ethernet String to Modbus Data Unit.vi"/>
+			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Ethernet Transmit.vi"/>
+			<Item Name="MB Globals.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Globals.vi"/>
+			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../PointReactorSimulator/TcpModbus_SlaveServer/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../utilities/NI_Modbus.llb/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB RefCount Function.ctl" Type="VI" URL="../utilities/NI_Modbus.llb/MB RefCount Function.ctl"/>
+			<Item Name="MB Registers Manager.vi" Type="VI" URL="../utilities/NI_Modbus.llb/MB Registers Manager.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
@@ -393,80 +388,21 @@ www.nustarnuclear.com</Property>
 				<Property Name="Destination[1].path" Type="Path">/E/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8A19885B-E2BD-497F-9BB7-DAF9E5E9212A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{82506217-FC3C-4BD5-9D18-0131BAB44CF8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Rod Value Measurement.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/数据模拟实测</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref"></Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref"></Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref"></Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref"></Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref"></Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/main.vi</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/main.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/Reactivity Fitting.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/Rod Value Measurement.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">核星核电科技(海盐)有限公司</Property>
 				<Property Name="TgtF_internalName" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021  核星核电科技(海盐)有限公司</Property>
