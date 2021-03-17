@@ -18,6 +18,17 @@
 			<Item Name="GlobalVariable.vi" Type="VI" URL="../src/global/GlobalVariable.vi"/>
 			<Item Name="SettingVariable.vi" Type="VI" URL="../src/global/SettingVariable.vi"/>
 		</Item>
+		<Item Name="realtimeMonitor" Type="Folder">
+			<Item Name="CalculateReactivity.vi" Type="VI" URL="../src/realtimeMonitor/CalculateReactivity.vi"/>
+			<Item Name="DRWM_DSF.vi" Type="VI" URL="../src/realtimeMonitor/DRWM_DSF.vi"/>
+			<Item Name="DRWM_SSF.vi" Type="VI" URL="../src/realtimeMonitor/DRWM_SSF.vi"/>
+			<Item Name="Filter.vi" Type="VI" URL="../src/realtimeMonitor/Filter.vi"/>
+			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../src/realtimeMonitor/ReadSSF_DSF.vi"/>
+			<Item Name="Realtime Monitor.vi" Type="VI" URL="../src/realtimeMonitor/Realtime Monitor.vi"/>
+			<Item Name="ScaleLink.vi" Type="VI" URL="../src/realtimeMonitor/ScaleLink.vi"/>
+			<Item Name="SourceBackground.vi" Type="VI" URL="../src/realtimeMonitor/SourceBackground.vi"/>
+			<Item Name="ViewHistory.vi" Type="VI" URL="../src/realtimeMonitor/ViewHistory.vi"/>
+		</Item>
 		<Item Name="settingsDialogs" Type="Folder">
 			<Item Name="InputDialog.vi" Type="VI" URL="../src/settingsDialogs/InputDialog.vi"/>
 			<Item Name="IPDialog.vi" Type="VI" URL="../src/settingsDialogs/IPDialog.vi"/>
@@ -33,22 +44,7 @@
 			<Item Name="FitPeriod.vi" Type="VI" URL="../src/utilities/FitPeriod.vi"/>
 			<Item Name="ReadDataFile.vi" Type="VI" URL="../src/utilities/ReadDataFile.vi"/>
 			<Item Name="ReadIOSettings.vi" Type="VI" URL="../src/utilities/ReadIOSettings.vi"/>
-			<Item Name="ReadPhysicalParam.vi" Type="VI" URL="../src/utilities/ReadPhysicalParam.vi"/>
 			<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/utilities/ReadPhysicsSettings.vi"/>
-		</Item>
-		<Item Name="多通道并行实测" Type="Folder">
-			<Item Name="DialogBox.vi" Type="VI" URL="../src/多通道并行实测/DialogBox.vi"/>
-			<Item Name="DRWM_DSF.vi" Type="VI" URL="../src/多通道并行实测/DRWM_DSF.vi"/>
-			<Item Name="DRWM模块.vi" Type="VI" URL="../src/多通道并行实测/DRWM模块.vi"/>
-			<Item Name="DRWM模块_两列DSF.vi" Type="VI" URL="../src/多通道并行实测/DRWM模块_两列DSF.vi"/>
-			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../src/多通道并行实测/ReadSSF_DSF.vi"/>
-			<Item Name="ReadSSF_DSF_两列DSF.vi" Type="VI" URL="../src/多通道并行实测/ReadSSF_DSF_两列DSF.vi"/>
-			<Item Name="ScaleLink.vi" Type="VI" URL="../src/多通道并行实测/ScaleLink.vi"/>
-			<Item Name="多通道并行实测.vi" Type="VI" URL="../src/多通道并行实测/多通道并行实测.vi"/>
-			<Item Name="反应性计算.vi" Type="VI" URL="../src/多通道并行实测/反应性计算.vi"/>
-			<Item Name="滤波模块.vi" Type="VI" URL="../src/多通道并行实测/滤波模块.vi"/>
-			<Item Name="曲线查看.vi" Type="VI" URL="../src/多通道并行实测/曲线查看.vi"/>
-			<Item Name="源强与基线.vi" Type="VI" URL="../src/多通道并行实测/源强与基线.vi"/>
 		</Item>
 		<Item Name="数据模拟实测" Type="Folder">
 			<Item Name="Dialog_Box.vi" Type="VI" URL="../src/数据模拟实测/Dialog_Box.vi"/>
