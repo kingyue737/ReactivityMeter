@@ -416,6 +416,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Bld_supportedLanguage[1]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">iRho-100型反应性仪.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/NI_AB_PROJECTNAME/iRho-100型反应性仪.exe</Property>
@@ -426,7 +427,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Destination[1].path" Type="Path">/E/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{82506217-FC3C-4BD5-9D18-0131BAB44CF8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E11657A-1F38-4C73-A526-10E04F925054}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Rod Value Measurement.vi</Property>
