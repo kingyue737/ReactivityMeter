@@ -22,6 +22,7 @@
 			<Item Name="CalculateReactivity.vi" Type="VI" URL="../src/realtimeMonitor/CalculateReactivity.vi"/>
 			<Item Name="DRWM_DSF.vi" Type="VI" URL="../src/realtimeMonitor/DRWM_DSF.vi"/>
 			<Item Name="DRWM_SSF.vi" Type="VI" URL="../src/realtimeMonitor/DRWM_SSF.vi"/>
+			<Item Name="DRWMresult.vi" Type="VI" URL="../src/realtimeMonitor/DRWMresult.vi"/>
 			<Item Name="Filter.vi" Type="VI" URL="../src/realtimeMonitor/Filter.vi"/>
 			<Item Name="ReadSSF_DSF.vi" Type="VI" URL="../src/realtimeMonitor/ReadSSF_DSF.vi"/>
 			<Item Name="Realtime Monitor.vi" Type="VI" URL="../src/realtimeMonitor/Realtime Monitor.vi"/>
