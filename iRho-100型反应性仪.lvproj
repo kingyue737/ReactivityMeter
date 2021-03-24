@@ -399,6 +399,120 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
+			<Item Name="iRho-100型反应性仪安装包精简" Type="Installer">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
+				<Property Name="AB_Temp_Project_Path" Type="Path">/D/LVprojects/ReactivityMeter/iRho-100型反应性仪.lvproj</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
+				<Property Name="Destination[0].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{0A544682-7390-49DD-8471-7F65403AD302}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI System Configuration Runtime 20.0.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{944CC86F-BDFB-4850-878C-370B9A7FF12C}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 20.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{CED05116-2329-4D0D-92CA-CEC520182EB0}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 f1</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">true</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">true</Property>
+				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2020 Non-English Support.</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">true</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">true</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="INST_author" Type="Str">ER</Property>
+				<Property Name="INST_buildLocation" Type="Path">/E/iRho-100型反应性仪安装包</Property>
+				<Property Name="INST_buildSpecName" Type="Str">iRho-100型反应性仪安装包精简</Property>
+				<Property Name="INST_defaultDir" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
+				<Property Name="MSI_arpCompany" Type="Str">核星核电科技(海盐)有限公司</Property>
+				<Property Name="MSI_arpContact" Type="Str">shzhang@nustarnuclear.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">021-60901055</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.nustarnuclear.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{10D11D0F-EB67-4A50-A8D7-276DF18A2772}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{78B75DF0-D8A3-443E-92C2-762963998C86}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">iRho-100型反应性仪
+版权所有: 核星核电科技(海盐)有限公司
+
+www.nustarnuclear.com</Property>
+				<Property Name="MSI_windowTitle" Type="Str">欢迎使用iRho-100型反应性仪安装程序</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">iRho-100型反应性仪.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">iRho-100型反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">iRho-100型反应性仪可执行程序</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/iRho-100型反应性仪可执行程序</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[1].name" Type="Str">iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/configure/iRhoV_SSFDSF_1.txt</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[2].name" Type="Str">iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[2].tag" Type="Ref">/我的电脑/configure/iRhoV_SSFDSF_2.txt</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[9].File[0].dest" Type="Str">{12679337-69B4-4B14-B569-223073C42FFB}</Property>
+				<Property Name="Source[9].File[0].name" Type="Str">HXH型动态数字反应性仪.exe</Property>
+				<Property Name="Source[9].File[0].tag" Type="Str">{0E80CD8E-3037-488D-8FF6-236388885488}</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
 			<Item Name="iRho-100型反应性仪可执行程序" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{09FAAC2E-9763-445F-A1BB-C9D0C5B47F5B}</Property>
@@ -428,7 +542,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Destination[1].path" Type="Path">/E/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E11657A-1F38-4C73-A526-10E04F925054}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{632B5DA7-4322-40D1-B678-75D9911C5DE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Rod Value Measurement.vi</Property>
