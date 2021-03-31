@@ -38,6 +38,7 @@
 			<Item Name="PhysicsDialog.vi" Type="VI" URL="../src/settingsDialogs/PhysicsDialog.vi"/>
 		</Item>
 		<Item Name="utilities" Type="Folder">
+			<Item Name="endianSwitch.vi" Type="VI" URL="../src/utilities/endianSwitch.vi"/>
 			<Item Name="FitPeriod.lvtest" Type="TestItem" URL="../src/utilities/FitPeriod.lvtest">
 				<Property Name="utf.test.bind" Type="Str">FitPeriod.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">82718241-18D6-1D56-5459-4DB1C957CFF7</Property>
