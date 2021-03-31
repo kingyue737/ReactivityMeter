@@ -28,7 +28,7 @@
 			<Item Name="Realtime Monitor.vi" Type="VI" URL="../src/realtimeMonitor/Realtime Monitor.vi"/>
 			<Item Name="ScaleLink.vi" Type="VI" URL="../src/realtimeMonitor/ScaleLink.vi"/>
 			<Item Name="SourceBackground.vi" Type="VI" URL="../src/realtimeMonitor/SourceBackground.vi"/>
-			<Item Name="ViewHistory.vi" Type="VI" URL="../src/realtimeMonitor/ViewHistory.vi"/>
+			<Item Name="viewHistory.vi" Type="VI" URL="../src/realtimeMonitor/viewHistory.vi"/>
 		</Item>
 		<Item Name="settingsDialogs" Type="Folder">
 			<Item Name="InputDialog.vi" Type="VI" URL="../src/settingsDialogs/InputDialog.vi"/>
