@@ -48,13 +48,6 @@
 			<Item Name="ReadIOSettings.vi" Type="VI" URL="../src/utilities/ReadIOSettings.vi"/>
 			<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/utilities/ReadPhysicsSettings.vi"/>
 		</Item>
-		<Item Name="数据模拟实测" Type="Folder">
-			<Item Name="Dialog_Box.vi" Type="VI" URL="../src/数据模拟实测/Dialog_Box.vi"/>
-			<Item Name="LoadSSF_DSF.vi" Type="VI" URL="../src/数据模拟实测/LoadSSF_DSF.vi"/>
-			<Item Name="Read_DR_DATA.vi" Type="VI" URL="../src/数据模拟实测/Read_DR_DATA.vi"/>
-			<Item Name="反应性模拟计算.vi" Type="VI" URL="../src/数据模拟实测/反应性模拟计算.vi"/>
-			<Item Name="数据模拟实测.vi" Type="VI" URL="../src/数据模拟实测/数据模拟实测.vi"/>
-		</Item>
 		<Item Name="About.vi" Type="VI" URL="../src/About.vi"/>
 		<Item Name="main menu.rtm" Type="Document" URL="../src/main menu.rtm"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
@@ -74,10 +67,7 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Bits to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bits to Bytes.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Bytes to Bits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to Bits.vi"/>
-				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -89,7 +79,6 @@
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -117,13 +106,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
-				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
-				<Item Name="Modbus API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Modbus API.lvclass"/>
-				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Modbus Data Unit/Modbus Data Unit.lvclass"/>
-				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Master/Modbus Master.lvclass"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
-				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
-				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -135,7 +118,6 @@
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -147,11 +129,11 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Dialog_Box.vi" Type="VI" URL="../src/数据模拟实测/Dialog_Box.vi"/>
+			<Item Name="LoadSSF_DSF.vi" Type="VI" URL="../src/数据模拟实测/LoadSSF_DSF.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Decode Data.vi"/>
@@ -164,6 +146,9 @@
 			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Modbus Command to Data Unit.vi"/>
 			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Modbus Command.ctl"/>
 			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../src/utilities/NI_modbus.llb/MB Modbus Data Unit.ctl"/>
+			<Item Name="Read_DR_DATA.vi" Type="VI" URL="../src/数据模拟实测/Read_DR_DATA.vi"/>
+			<Item Name="反应性模拟计算.vi" Type="VI" URL="../src/数据模拟实测/反应性模拟计算.vi"/>
+			<Item Name="数据模拟实测.vi" Type="VI" URL="../src/数据模拟实测/数据模拟实测.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="iRho-100型反应性仪安装包" Type="Installer">
@@ -494,7 +479,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">iRho-100型反应性仪.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">iRho-100型反应性仪</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星科技</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">iRho-100型反应性仪</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
