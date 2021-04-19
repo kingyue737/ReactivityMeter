@@ -38,6 +38,7 @@
 			<Item Name="PhysicsDialog.vi" Type="VI" URL="../src/settingsDialogs/PhysicsDialog.vi"/>
 		</Item>
 		<Item Name="utilities" Type="Folder">
+			<Item Name="CreateDataFile.vi" Type="VI" URL="../src/utilities/CreateDataFile.vi"/>
 			<Item Name="endianSwitch.vi" Type="VI" URL="../src/utilities/endianSwitch.vi"/>
 			<Item Name="FitPeriod.lvtest" Type="TestItem" URL="../src/utilities/FitPeriod.lvtest">
 				<Property Name="utf.test.bind" Type="Str">FitPeriod.vi</Property>
@@ -48,7 +49,9 @@
 			<Item Name="ReadIOSettings.vi" Type="VI" URL="../src/utilities/ReadIOSettings.vi"/>
 			<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/utilities/ReadPhysicsSettings.vi"/>
 		</Item>
+		<Item Name="_connectSlave.vi" Type="VI" URL="../src/utilities/_connectSlave.vi"/>
 		<Item Name="About.vi" Type="VI" URL="../src/About.vi"/>
+		<Item Name="Filter_PtByPt.vi" Type="VI" URL="../src/realtimeMonitor/Filter_PtByPt.vi"/>
 		<Item Name="main menu.rtm" Type="Document" URL="../src/main menu.rtm"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 		<Item Name="Reactivity Fitting.vi" Type="VI" URL="../src/Reactivity Fitting.vi"/>
@@ -102,6 +105,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
