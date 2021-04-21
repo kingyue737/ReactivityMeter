@@ -56,6 +56,7 @@
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 		<Item Name="Reactivity Fitting.vi" Type="VI" URL="../src/Reactivity Fitting.vi"/>
 		<Item Name="Rod Value Measurement.vi" Type="VI" URL="../src/Rod Value Measurement.vi"/>
+		<Item Name="XY Fitting.vi" Type="VI" URL="../src/XY Fitting.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Close Generic Object Refnum (Array VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array VI)__ogtk.vi"/>
