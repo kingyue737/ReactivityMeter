@@ -16,6 +16,7 @@
 		</Item>
 		<Item Name="global" Type="Folder">
 			<Item Name="GlobalVariable.vi" Type="VI" URL="../src/global/GlobalVariable.vi"/>
+			<Item Name="RealtimeData.vi" Type="VI" URL="../src/global/RealtimeData.vi"/>
 			<Item Name="SettingVariable.vi" Type="VI" URL="../src/global/SettingVariable.vi"/>
 		</Item>
 		<Item Name="realtimeMonitor" Type="Folder">
@@ -29,7 +30,7 @@
 			<Item Name="Realtime Monitor.vi" Type="VI" URL="../src/realtimeMonitor/Realtime Monitor.vi"/>
 			<Item Name="ScaleLink.vi" Type="VI" URL="../src/realtimeMonitor/ScaleLink.vi"/>
 			<Item Name="SourceBackground.vi" Type="VI" URL="../src/realtimeMonitor/SourceBackground.vi"/>
-			<Item Name="viewHistory.vi" Type="VI" URL="../src/realtimeMonitor/viewHistory.vi"/>
+			<Item Name="ViewHistory.vi" Type="VI" URL="../src/realtimeMonitor/ViewHistory.vi"/>
 		</Item>
 		<Item Name="settingsDialogs" Type="Folder">
 			<Item Name="InputDialog.vi" Type="VI" URL="../src/settingsDialogs/InputDialog.vi"/>
@@ -50,6 +51,7 @@
 			<Item Name="ReadDataFile.vi" Type="VI" URL="../src/utilities/ReadDataFile.vi"/>
 			<Item Name="ReadIOSettings.vi" Type="VI" URL="../src/utilities/ReadIOSettings.vi"/>
 			<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/utilities/ReadPhysicsSettings.vi"/>
+			<Item Name="SplitChannels.vi" Type="VI" URL="../src/utilities/SplitChannels.vi"/>
 		</Item>
 		<Item Name="About.vi" Type="VI" URL="../src/About.vi"/>
 		<Item Name="main menu.rtm" Type="Document" URL="../src/main menu.rtm"/>
